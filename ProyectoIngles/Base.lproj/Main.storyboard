@@ -13,7 +13,7 @@
         <!--Animales-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Animales" customClass="AVPlayerViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Animales" customClass="animalitosController" customModule="ProyectoIngles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,61 +25,97 @@
                                     <constraint firstAttribute="height" constant="226" id="eB2-uD-B3J"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wwx-8l-Npf">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="Wwx-8l-Npf" userLabel="perrito">
                                 <rect key="frame" x="27" y="350" width="94" height="87"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Wwx-8l-Npf" secondAttribute="height" multiplier="94:87" id="kBq-6X-oy5"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3Y4-qH-JEg" appends="YES" id="Hcz-cf-RQI"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="reg-54-zu6">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="reg-54-zu6" userLabel="gatito">
                                 <rect key="frame" x="141" y="350" width="94" height="87"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="reg-54-zu6" secondAttribute="height" multiplier="94:87" id="h0Q-Xd-9J6"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bcO-NM-KvA" appends="YES" id="zNi-fS-AE3"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D8Q-72-qS9">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="D8Q-72-qS9" userLabel="zorrito">
                                 <rect key="frame" x="254" y="350" width="94" height="87"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="D8Q-72-qS9" secondAttribute="height" multiplier="94:87" id="I1u-Ki-OxK"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Gne-dy-1FD" appends="YES" id="Sey-hw-8fR"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k22-Lt-bJB">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="k22-Lt-bJB" userLabel="monito">
                                 <rect key="frame" x="27" y="452" width="94" height="87"/>
+                                <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="k22-Lt-bJB" secondAttribute="height" multiplier="94:87" id="G3z-e1-hwo"/>
                                     <constraint firstAttribute="height" constant="87" id="TW9-Ku-vHK"/>
+                                    <constraint firstAttribute="width" secondItem="k22-Lt-bJB" secondAttribute="height" multiplier="94:87" id="ahY-dB-Oig"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fLS-60-vre" appends="YES" id="fHT-qK-dHZ"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rv9-MM-g3F">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="Rv9-MM-g3F" userLabel="tigrecito">
                                 <rect key="frame" x="141" y="452" width="94" height="87"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Rv9-MM-g3F" secondAttribute="height" multiplier="94:87" id="y8h-Kc-LVt"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="C9T-Oa-Rvh" appends="YES" id="yKg-6C-RRs"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zWK-4b-72F">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="zWK-4b-72F" userLabel="nutrita">
                                 <rect key="frame" x="254" y="452" width="94" height="87"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="NqM-mv-Gg8"/>
                                     <constraint firstAttribute="width" secondItem="zWK-4b-72F" secondAttribute="height" multiplier="94:87" id="XTD-zw-jcz"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="IdS-Bj-gwf" appends="YES" id="NA0-Rr-h5C"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sNO-6y-J9G">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="sNO-6y-J9G" userLabel="osito">
                                 <rect key="frame" x="27" y="560" width="94" height="87"/>
+                                <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="sNO-6y-J9G" secondAttribute="height" multiplier="94:87" id="ABm-vm-cuQ"/>
+                                    <constraint firstAttribute="width" secondItem="sNO-6y-J9G" secondAttribute="height" multiplier="94:87" id="Dta-JV-J45"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="pQj-vh-NW0" appends="YES" id="9LX-Ir-XBj"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dqo-9B-BPg">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="dqo-9B-BPg" userLabel="ardillita">
                                 <rect key="frame" x="141" y="560" width="94" height="87"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dqo-9B-BPg" secondAttribute="height" multiplier="94:87" id="rJw-9E-AI5"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wqq-x2-qfB" appends="YES" id="bzy-tL-0iT"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ygc-N5-uhH">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="Ygc-N5-uhH" userLabel="conejito">
                                 <rect key="frame" x="254" y="560" width="94" height="87"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ygc-N5-uhH" secondAttribute="height" multiplier="94:87" id="iUC-Cr-iIu"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wd0-8c-JyD" appends="YES" id="pJS-mV-mQy"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animales Prueba" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sK-tw-4S1">
                                 <rect key="frame" x="49" y="305" width="277" height="37"/>
@@ -106,8 +142,8 @@
                             <constraint firstItem="D8Q-72-qS9" firstAttribute="top" secondItem="9sK-tw-4S1" secondAttribute="bottom" constant="8" symbolic="YES" id="8nK-rY-0Mi"/>
                             <constraint firstItem="k22-Lt-bJB" firstAttribute="top" secondItem="Wwx-8l-Npf" secondAttribute="bottom" constant="15" id="9Cn-ua-Wws"/>
                             <constraint firstItem="k22-Lt-bJB" firstAttribute="top" secondItem="zWK-4b-72F" secondAttribute="top" id="EiB-Xo-raU"/>
+                            <constraint firstItem="sNO-6y-J9G" firstAttribute="bottom" secondItem="dqo-9B-BPg" secondAttribute="bottom" id="EzE-we-bAT"/>
                             <constraint firstItem="k22-Lt-bJB" firstAttribute="trailing" secondItem="sNO-6y-J9G" secondAttribute="trailing" id="FJ5-UE-RVS"/>
-                            <constraint firstAttribute="bottom" secondItem="k22-Lt-bJB" secondAttribute="bottom" constant="128" id="GDb-Gk-hqO"/>
                             <constraint firstItem="reg-54-zu6" firstAttribute="bottom" secondItem="D8Q-72-qS9" secondAttribute="bottom" id="GZR-7A-Q4S"/>
                             <constraint firstItem="Wwx-8l-Npf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="GsG-bi-hCK"/>
                             <constraint firstItem="Wwx-8l-Npf" firstAttribute="top" secondItem="9sK-tw-4S1" secondAttribute="bottom" constant="8" symbolic="YES" id="OQH-bc-T4d"/>
@@ -124,11 +160,9 @@
                             <constraint firstItem="zWK-4b-72F" firstAttribute="top" secondItem="D8Q-72-qS9" secondAttribute="bottom" constant="15" id="Z9F-tq-gGM"/>
                             <constraint firstItem="Wwx-8l-Npf" firstAttribute="top" secondItem="9sK-tw-4S1" secondAttribute="bottom" constant="8" id="ZHh-hg-eB2"/>
                             <constraint firstItem="Ygc-N5-uhH" firstAttribute="bottom" secondItem="dqo-9B-BPg" secondAttribute="bottom" id="aV2-x0-6kq"/>
-                            <constraint firstAttribute="bottom" secondItem="Ygc-N5-uhH" secondAttribute="bottom" constant="20" symbolic="YES" id="b94-xf-oas"/>
                             <constraint firstItem="k22-Lt-bJB" firstAttribute="top" secondItem="Rv9-MM-g3F" secondAttribute="top" id="bwi-Re-aRY"/>
                             <constraint firstItem="eVb-jh-53b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e2i-Uc-sMz"/>
                             <constraint firstItem="reg-54-zu6" firstAttribute="leading" secondItem="Wwx-8l-Npf" secondAttribute="trailing" constant="20" id="fAw-ME-9qC"/>
-                            <constraint firstItem="Ygc-N5-uhH" firstAttribute="bottom" secondItem="sNO-6y-J9G" secondAttribute="bottom" id="iSI-4e-xHa"/>
                             <constraint firstItem="k22-Lt-bJB" firstAttribute="leading" secondItem="sNO-6y-J9G" secondAttribute="leading" id="ihf-Ld-Ugi"/>
                             <constraint firstItem="reg-54-zu6" firstAttribute="leading" secondItem="dqo-9B-BPg" secondAttribute="leading" id="ixf-jJ-hcU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zWK-4b-72F" secondAttribute="trailing" constant="27" id="kSo-Qh-KtC"/>
@@ -146,8 +180,58 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imgAnimacion" destination="eVb-jh-53b" id="Rkj-QB-dn7"/>
+                        <outlet property="imgOso" destination="sNO-6y-J9G" id="SaC-tA-r2w"/>
+                        <outlet property="txtAnimal" destination="9sK-tw-4S1" id="KwS-uH-5KZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bcO-NM-KvA" userLabel="tapGatito">
+                    <connections>
+                        <action selector="doTapGatito:" destination="BYZ-38-t0r" id="9Ub-Ef-Vhu"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Gne-dy-1FD" userLabel="tapZorrito">
+                    <connections>
+                        <action selector="doTapZorrito:" destination="BYZ-38-t0r" id="x61-8C-l03"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="C9T-Oa-Rvh" userLabel="tapTigrecito">
+                    <connections>
+                        <action selector="doTapTigrecito:" destination="BYZ-38-t0r" id="3nV-FU-oei"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="IdS-Bj-gwf" userLabel="tapNutricita">
+                    <connections>
+                        <action selector="doTapNutricita:" destination="BYZ-38-t0r" id="wz4-Fx-XfX"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="fLS-60-vre" userLabel="tapMonito">
+                    <connections>
+                        <action selector="doTapMonito:" destination="BYZ-38-t0r" id="VMf-ZR-XU5"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="pQj-vh-NW0" userLabel="tapOsito">
+                    <connections>
+                        <action selector="doTapOsito:" destination="BYZ-38-t0r" id="GrY-sZ-hEl"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wqq-x2-qfB" userLabel="tapArdillita">
+                    <connections>
+                        <action selector="doTapArdillita:" destination="BYZ-38-t0r" id="wAZ-cb-WaD"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wd0-8c-JyD" userLabel="tapConejito">
+                    <connections>
+                        <action selector="doTapConejito:" destination="BYZ-38-t0r" id="AQ9-df-sjz"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="3Y4-qH-JEg" userLabel="tapPerrito">
+                    <connections>
+                        <action selector="doTapPerrito:" destination="BYZ-38-t0r" id="Hxh-JQ-rDp"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-1922" y="96"/>
         </scene>

@@ -14,6 +14,7 @@
 		3DCF5D902315C44F00B55EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF5D8E2315C44F00B55EE8 /* LaunchScreen.storyboard */; };
 		3DCF5D9B2315C45000B55EE8 /* ProyectoInglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5D9A2315C45000B55EE8 /* ProyectoInglesTests.swift */; };
 		3DCF5DA62315C45000B55EE8 /* ProyectoInglesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5DA52315C45000B55EE8 /* ProyectoInglesUITests.swift */; };
+		45D1C4B223164E4E00815701 /* bear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45D1C4B123164E4E00815701 /* bear.mp3 */; };
 		BE890FBA231623D4001F1748 /* animalitosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE890FB9231623D4001F1748 /* animalitosController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		3DCF5DA12315C45000B55EE8 /* ProyectoInglesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoInglesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCF5DA52315C45000B55EE8 /* ProyectoInglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoInglesUITests.swift; sourceTree = "<group>"; };
 		3DCF5DA72315C45000B55EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D1C4B123164E4E00815701 /* bear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bear.mp3; sourceTree = "<group>"; };
 		BE890FB9231623D4001F1748 /* animalitosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalitosController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 		3DCF5D842315C44D00B55EE8 /* ProyectoIngles */ = {
 			isa = PBXGroup;
 			children = (
+				45D1C4B123164E4E00815701 /* bear.mp3 */,
 				BE890FB9231623D4001F1748 /* animalitosController.swift */,
 				3DCF5D852315C44D00B55EE8 /* AppDelegate.swift */,
 				3DCF5D872315C44D00B55EE8 /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D1C4B223164E4E00815701 /* bear.mp3 in Resources */,
 				3DCF5D902315C44F00B55EE8 /* LaunchScreen.storyboard in Resources */,
 				3DCF5D8D2315C44F00B55EE8 /* Assets.xcassets in Resources */,
 				3DCF5D8B2315C44D00B55EE8 /* Main.storyboard in Resources */,
