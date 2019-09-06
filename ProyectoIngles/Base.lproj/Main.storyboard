@@ -81,7 +81,7 @@
                                         <rect key="frame" x="254.5" y="230" width="93.5" height="83"/>
                                         <gestureRecognizers/>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="wd0-8c-JyD" appends="YES" id="qxB-mZ-amI"/>
+                                            <outletCollection property="gestureRecognizers" destination="wd0-8c-JyD" appends="YES" id="vDE-eG-FeQ"/>
                                         </connections>
                                     </imageView>
                                 </subviews>
@@ -228,7 +228,11 @@
                         <action selector="doTapArdillita:" destination="BYZ-38-t0r" id="wAZ-cb-WaD"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="wd0-8c-JyD" userLabel="tapLobo"/>
+                <tapGestureRecognizer id="wd0-8c-JyD" userLabel="tapLobo">
+                    <connections>
+                        <action selector="doTapLobito:" destination="BYZ-38-t0r" id="wdE-YO-rVf"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-1922.4000000000001" y="95.802098950524751"/>
         </scene>
