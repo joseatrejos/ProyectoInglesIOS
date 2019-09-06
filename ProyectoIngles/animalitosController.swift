@@ -12,7 +12,8 @@ import AVFoundation
 
 class animalitosController: UIViewController {
     var player : AVAudioPlayer?
-    var reproduccion = false
+    var reproduccion = true
+        var  imagenesSecuenciaActiva : [UIImage] = []
     
     @IBAction func doTapPerrito(_ sender: Any) {
         txtAnimal.text="Dog"
@@ -33,12 +34,22 @@ class animalitosController: UIViewController {
         txtAnimal.text="Monkey"
     }
     @IBAction func doTapOsito(_ sender: Any) {
-        txtAnimal.text="Bear"
-        //if imgAnimacion.isAnimating{
-          //  imgAnimacion.stopAnimating()
-        //}else{
+        txtAnimal.text="Gato"
+        imagenesSecuenciaActiva.removeAll()
+        for i in 1...9
+        {
+            imagenesSecuenciaActiva.append(UIImage(named: txtAnimal.text!+"\(i)")!)
+        }
+        imgAnimacion.animationImages = imagenesSecuenciaActiva
+        
+        if(imgAnimacion.isAnimating)
+        {
+            imgAnimacion.stopAnimating();
+        }else
+        {
             imgAnimacion.startAnimating()
-        //}
+        }
+        
         if(reproduccion){
             let path = Bundle.main.path(forResource: "bear.mp3", ofType: nil)
             let url = URL(fileURLWithPath: path!)
@@ -49,6 +60,7 @@ class animalitosController: UIViewController {
         }else{
             reproduccion = true
         }
+        
         if player != nil {
             player?.play()
         }
@@ -62,42 +74,91 @@ class animalitosController: UIViewController {
     
     
     
-    @IBOutlet weak var imgOso: UIImageView!
-    @IBOutlet weak var imgAnimacion: UIImageView!
     @IBOutlet weak var txtAnimal: UILabel!
+    
+    @IBOutlet weak var imgPerrito: UIImageView!
+    @IBOutlet weak var imgGatito: UIImageView!
+    @IBOutlet weak var imgZorrito: UIImageView!
+    @IBOutlet weak var imgMonito: UIImageView!
+    @IBOutlet weak var imgTigrecito: UIImageView!
+    @IBOutlet weak var imgNutria: UIImageView!
+    @IBOutlet weak var imgOsito: UIImageView!
+    @IBOutlet weak var imgArdillita: UIImageView!
+    @IBOutlet weak var imgLobito: UIImageView!
+    
+    
+    @IBOutlet weak var imgAnimacion: UIImageView!
     
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        var  imagenesSecuenciaActiva : [UIImage] = []
-        imagenesSecuenciaActiva.append(UIImage(named: "oso1")!)
-        imagenesSecuenciaActiva.append(UIImage(named: "oso2")!)
-        imagenesSecuenciaActiva.append(UIImage(named: "oso3")!)
-        imagenesSecuenciaActiva.append(UIImage(named: "oso4")!)
-        imagenesSecuenciaActiva.append(UIImage(named: "oso5")!)
-        imagenesSecuenciaActiva.append(UIImage(named: "oso6")!)
-        imagenesSecuenciaActiva.append(UIImage(named: "oso7")!)
-        imagenesSecuenciaActiva.append(UIImage(named: "oso8")!)
-        imagenesSecuenciaActiva.append(UIImage(named: "oso9")!)
-        imgAnimacion.animationImages = imagenesSecuenciaActiva
+        
         imgAnimacion.animationDuration = 0.7
         
         
-        var imagenesOso: [UIImage] = []
-        imagenesOso.append(UIImage(named: "oso1")!)
-        imagenesOso.append(UIImage(named: "oso2")!)
-        imagenesOso.append(UIImage(named: "oso3")!)
-        imagenesOso.append(UIImage(named: "oso4")!)
-        imagenesOso.append(UIImage(named: "oso5")!)
-        imagenesOso.append(UIImage(named: "oso6")!)
-        imagenesOso.append(UIImage(named: "oso7")!)
-        imagenesOso.append(UIImage(named: "oso8")!)
-        imagenesOso.append(UIImage(named: "oso9")!)
-        imgOso.animationImages = imagenesOso
-        imgOso.animationDuration = 0.7
-        imgOso.startAnimating()
+        var imagenesGato: [UIImage] = []
+        for i in 1...9
+        {
+            imagenesGato.append(UIImage(named: "Gato"+"\(i)")!)
+        }
+        imgGatito.animationImages = imagenesGato
+        imgGatito.animationDuration = 0.7
+        imgGatito.startAnimating()
         
+        var imagenesPerro: [UIImage] = []
+        for i in 1...9
+        {
+            imagenesPerro.append(UIImage(named: "Perro"+"\(i)")!)
+        }
+        imgPerrito.animationImages = imagenesPerro
+        imgPerrito.animationDuration = 0.7
+        imgPerrito.startAnimating()
+        
+        var imagenesZorro: [UIImage] = []
+        for i in 1...9
+        {
+            imagenesZorro.append(UIImage(named: "Zorro"+"\(i)")!)
+        }
+        imgZorrito.animationImages = imagenesZorro
+        imgZorrito.animationDuration = 0.7
+        imgZorrito.startAnimating()
+        
+        var imagenesMono: [UIImage] = []
+        for i in 1...9
+        {
+            imagenesMono.append(UIImage(named: "Mono"+"\(i)")!)
+        }
+        imgMonito.animationImages = imagenesMono
+        imgMonito.animationDuration = 0.7
+        imgMonito.startAnimating()
+        
+        var imagenesLobo: [UIImage] = []
+        for i in 1...9
+        {
+            imagenesLobo.append(UIImage(named: "Lobo"+"\(i)")!)
+        }
+        imgLobito.animationImages = imagenesLobo
+        imgLobito.animationDuration = 0.7
+        imgLobito.startAnimating()
+        
+        var imagenesTigre: [UIImage] = []
+        for i in 1...9
+        {
+            imagenesTigre.append(UIImage(named: "Tigre"+"\(i)")!)
+        }
+        imgTigrecito.animationImages = imagenesTigre
+        imgTigrecito.animationDuration = 0.7
+        imgTigrecito.startAnimating()
+        
+        var imagenesNutria: [UIImage] = []
+        for i in 1...9
+        {
+            imagenesNutria.append(UIImage(named: "Nutria"+"\(i)")!)
+        }
+        imgNutria.animationImages = imagenesNutria
+        imgNutria.animationDuration = 0.7
+        imgNutria.startAnimating()
        
         
         

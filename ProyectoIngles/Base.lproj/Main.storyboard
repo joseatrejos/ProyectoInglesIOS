@@ -22,65 +22,91 @@
                                 <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
                                 <subviews>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="7Mi-fv-Avc" userLabel="perrito">
-                                        <rect key="frame" x="27" y="17.5" width="94" height="83.5"/>
+                                        <rect key="frame" x="27" y="20" width="94" height="83.5"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="3Y4-qH-JEg" appends="YES" id="aCZ-lB-ROT"/>
+                                        </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="R8b-pX-BlC" userLabel="gatito">
-                                        <rect key="frame" x="141" y="17.5" width="93.5" height="83.5"/>
+                                        <rect key="frame" x="141" y="20" width="93.5" height="83.5"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="bcO-NM-KvA" appends="YES" id="Znu-jq-ldw"/>
+                                        </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="OBH-yT-ior" userLabel="zorrito">
-                                        <rect key="frame" x="254.5" y="17.5" width="93.5" height="83.5"/>
+                                        <rect key="frame" x="254.5" y="20" width="93.5" height="83.5"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Gne-dy-1FD" appends="YES" id="4r7-y8-bMz"/>
+                                        </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="m44-Hi-IAF" userLabel="monito">
-                                        <rect key="frame" x="27" y="119.5" width="94" height="83.5"/>
+                                        <rect key="frame" x="27" y="122" width="94" height="83.5"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="fLS-60-vre" appends="YES" id="wpN-2U-v4m"/>
+                                        </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="mSc-By-bVq" userLabel="tigrecito">
-                                        <rect key="frame" x="141" y="119.5" width="93.5" height="83.5"/>
+                                        <rect key="frame" x="141" y="122" width="93.5" height="83.5"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="C9T-Oa-Rvh" appends="YES" id="ChX-hT-Vhu"/>
+                                        </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="GzZ-P2-F28" userLabel="nutrita">
-                                        <rect key="frame" x="254.5" y="119.5" width="93.5" height="83.5"/>
+                                        <rect key="frame" x="254.5" y="122" width="93.5" height="83.5"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="IdS-Bj-gwf" appends="YES" id="mSM-1d-2Z8"/>
+                                        </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="75Q-3U-hGt" userLabel="osito">
-                                        <rect key="frame" x="27" y="227.5" width="94" height="83"/>
+                                        <rect key="frame" x="27" y="229.5" width="94" height="83"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="pQj-vh-NW0" appends="YES" id="1A1-AF-PFr"/>
+                                        </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="Ud0-LR-c7Z" userLabel="ardillita">
-                                        <rect key="frame" x="141" y="227.5" width="93.5" height="83"/>
+                                        <rect key="frame" x="141" y="230" width="93.5" height="83"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="wqq-x2-qfB" appends="YES" id="gIw-BQ-3qK"/>
+                                        </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Regresar" translatesAutoresizingMaskIntoConstraints="NO" id="FcJ-jZ-3dg" userLabel="conejito">
-                                        <rect key="frame" x="254.5" y="227.5" width="93.5" height="83"/>
+                                        <rect key="frame" x="254.5" y="230" width="93.5" height="83"/>
                                         <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="wd0-8c-JyD" appends="YES" id="qxB-mZ-amI"/>
+                                        </connections>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="Ud0-LR-c7Z" firstAttribute="width" secondItem="Y1z-Cl-Ezl" secondAttribute="width" multiplier="0.25" id="4Dz-gG-ewW"/>
-                                    <constraint firstItem="R8b-pX-BlC" firstAttribute="top" secondItem="Y1z-Cl-Ezl" secondAttribute="top" constant="17.5" id="A96-aS-wi4"/>
                                     <constraint firstItem="FcJ-jZ-3dg" firstAttribute="top" secondItem="GzZ-P2-F28" secondAttribute="bottom" constant="24.5" id="CPo-Id-r4b"/>
                                     <constraint firstItem="Ud0-LR-c7Z" firstAttribute="height" secondItem="Y1z-Cl-Ezl" secondAttribute="height" multiplier="0.25" id="E37-sm-Rev"/>
-                                    <constraint firstItem="7Mi-fv-Avc" firstAttribute="top" secondItem="Y1z-Cl-Ezl" secondAttribute="top" constant="17.5" id="JUb-mp-Psk"/>
                                     <constraint firstItem="GzZ-P2-F28" firstAttribute="height" secondItem="Y1z-Cl-Ezl" secondAttribute="height" multiplier="0.25" id="Mh1-hK-ZfL"/>
                                     <constraint firstItem="7Mi-fv-Avc" firstAttribute="width" secondItem="Y1z-Cl-Ezl" secondAttribute="width" multiplier="0.25" id="N1s-Bs-6z7"/>
                                     <constraint firstItem="FcJ-jZ-3dg" firstAttribute="height" secondItem="Y1z-Cl-Ezl" secondAttribute="height" multiplier="0.25" id="Nkn-ih-Sww"/>
                                     <constraint firstItem="7Mi-fv-Avc" firstAttribute="height" secondItem="Y1z-Cl-Ezl" secondAttribute="height" multiplier="0.25" id="Nln-In-K28"/>
                                     <constraint firstItem="7Mi-fv-Avc" firstAttribute="leading" secondItem="Y1z-Cl-Ezl" secondAttribute="leading" constant="27" id="PMw-ua-Gn0"/>
-                                    <constraint firstItem="OBH-yT-ior" firstAttribute="top" secondItem="Y1z-Cl-Ezl" secondAttribute="top" constant="17.5" id="Rsx-55-ZJi"/>
                                     <constraint firstItem="mSc-By-bVq" firstAttribute="width" secondItem="Y1z-Cl-Ezl" secondAttribute="width" multiplier="0.25" id="SzQ-zu-eGh"/>
                                     <constraint firstItem="Ud0-LR-c7Z" firstAttribute="leading" secondItem="75Q-3U-hGt" secondAttribute="trailing" constant="20" id="UGW-c7-zC2"/>
                                     <constraint firstItem="m44-Hi-IAF" firstAttribute="leading" secondItem="Y1z-Cl-Ezl" secondAttribute="leading" constant="27" id="YW3-qZ-yOo"/>
                                     <constraint firstAttribute="trailing" secondItem="GzZ-P2-F28" secondAttribute="trailing" constant="27" id="ZI7-Kp-vWY"/>
                                     <constraint firstItem="75Q-3U-hGt" firstAttribute="leading" secondItem="Y1z-Cl-Ezl" secondAttribute="leading" constant="27" id="be0-MT-S8X"/>
-                                    <constraint firstItem="75Q-3U-hGt" firstAttribute="top" secondItem="m44-Hi-IAF" secondAttribute="bottom" constant="24.5" id="bfg-Pe-vlz"/>
+                                    <constraint firstItem="75Q-3U-hGt" firstAttribute="top" secondItem="m44-Hi-IAF" secondAttribute="bottom" constant="24" id="bfg-Pe-vlz"/>
                                     <constraint firstItem="R8b-pX-BlC" firstAttribute="height" secondItem="Y1z-Cl-Ezl" secondAttribute="height" multiplier="0.25" id="cFA-UO-YnW"/>
                                     <constraint firstItem="Ud0-LR-c7Z" firstAttribute="top" secondItem="mSc-By-bVq" secondAttribute="bottom" constant="24.5" id="d7X-Dj-hm0"/>
+                                    <constraint firstItem="OBH-yT-ior" firstAttribute="top" secondItem="Y1z-Cl-Ezl" secondAttribute="top" constant="20" id="dyh-u2-ZYh"/>
                                     <constraint firstItem="mSc-By-bVq" firstAttribute="top" secondItem="R8b-pX-BlC" secondAttribute="bottom" constant="18.5" id="e79-CO-TXa"/>
                                     <constraint firstItem="R8b-pX-BlC" firstAttribute="width" secondItem="Y1z-Cl-Ezl" secondAttribute="width" multiplier="0.25" id="eKK-s6-LpJ"/>
+                                    <constraint firstItem="R8b-pX-BlC" firstAttribute="top" secondItem="Y1z-Cl-Ezl" secondAttribute="top" constant="20" id="i9D-bU-y9l"/>
                                     <constraint firstItem="m44-Hi-IAF" firstAttribute="top" secondItem="7Mi-fv-Avc" secondAttribute="bottom" constant="18.5" id="jr8-Hs-qJK"/>
                                     <constraint firstAttribute="trailing" secondItem="OBH-yT-ior" secondAttribute="trailing" constant="27" id="jwa-9a-Z7M"/>
                                     <constraint firstItem="FcJ-jZ-3dg" firstAttribute="width" secondItem="Y1z-Cl-Ezl" secondAttribute="width" multiplier="0.25" id="keb-9L-kFk"/>
@@ -94,6 +120,7 @@
                                     <constraint firstItem="OBH-yT-ior" firstAttribute="width" secondItem="Y1z-Cl-Ezl" secondAttribute="width" multiplier="0.25" id="r4T-Eu-hiQ"/>
                                     <constraint firstItem="m44-Hi-IAF" firstAttribute="width" secondItem="Y1z-Cl-Ezl" secondAttribute="width" multiplier="0.25" id="rlg-zN-cSH"/>
                                     <constraint firstItem="75Q-3U-hGt" firstAttribute="width" secondItem="Y1z-Cl-Ezl" secondAttribute="width" multiplier="0.25" id="roi-gL-hmq"/>
+                                    <constraint firstItem="7Mi-fv-Avc" firstAttribute="top" secondItem="Y1z-Cl-Ezl" secondAttribute="top" constant="20" id="sEa-i6-fgb"/>
                                     <constraint firstItem="GzZ-P2-F28" firstAttribute="width" secondItem="Y1z-Cl-Ezl" secondAttribute="width" multiplier="0.25" id="ww9-Gd-JRO"/>
                                     <constraint firstItem="75Q-3U-hGt" firstAttribute="height" secondItem="Y1z-Cl-Ezl" secondAttribute="height" multiplier="0.25" id="ziq-Ul-Mml"/>
                                 </constraints>
@@ -101,7 +128,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uco-wY-y3l" userLabel="ViewSuperior">
                                 <rect key="frame" x="0.0" y="20" width="375" height="333.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animales Prueba" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZa-eY-bPb">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZa-eY-bPb">
                                         <rect key="frame" x="0.0" y="300" width="375" height="33.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -131,23 +158,41 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Y1z-Cl-Ezl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3c0-DH-gc1"/>
-                            <constraint firstItem="dgd-7X-QQq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="7hW-lh-2Y3"/>
+                            <constraint firstItem="Y1z-Cl-Ezl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="3c0-DH-gc1"/>
+                            <constraint firstItem="dgd-7X-QQq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="7hW-lh-2Y3"/>
                             <constraint firstItem="uco-wY-y3l" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="S34-75-Use"/>
-                            <constraint firstItem="Y1z-Cl-Ezl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="SGa-nQ-a7y"/>
-                            <constraint firstItem="Y1z-Cl-Ezl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W7q-dP-doA"/>
-                            <constraint firstItem="uco-wY-y3l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZFq-TI-JY3"/>
+                            <constraint firstItem="Y1z-Cl-Ezl" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="SGa-nQ-a7y"/>
+                            <constraint firstItem="Y1z-Cl-Ezl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W7q-dP-doA"/>
+                            <constraint firstItem="uco-wY-y3l" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="ZFq-TI-JY3"/>
                             <constraint firstItem="dgd-7X-QQq" firstAttribute="width" secondItem="uco-wY-y3l" secondAttribute="width" multiplier="0.13" id="Zz9-RN-uDX"/>
-                            <constraint firstItem="uco-wY-y3l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aZ0-Hj-vof"/>
+                            <constraint firstItem="uco-wY-y3l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aZ0-Hj-vof"/>
                             <constraint firstItem="dgd-7X-QQq" firstAttribute="height" secondItem="uco-wY-y3l" secondAttribute="height" multiplier="0.13" id="mOa-e5-mvJ"/>
-                            <constraint firstItem="dgd-7X-QQq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="pSw-w6-J1p"/>
+                            <constraint firstItem="dgd-7X-QQq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="30" id="pSw-w6-J1p"/>
                             <constraint firstItem="Y1z-Cl-Ezl" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="unz-bK-NLB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uco-wY-y3l" secondAttribute="trailing" id="zDz-FX-QgT"/>
+                            <constraint firstAttribute="trailing" secondItem="uco-wY-y3l" secondAttribute="trailing" id="zDz-FX-QgT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imgAnimacion" destination="C4J-V2-BK1" id="c5N-TU-OVe"/>
+                        <outlet property="imgArdillita" destination="Ud0-LR-c7Z" id="6zr-dW-tIN"/>
+                        <outlet property="imgGatito" destination="R8b-pX-BlC" id="GVB-09-cgn"/>
+                        <outlet property="imgLobito" destination="FcJ-jZ-3dg" id="5vN-DD-hiM"/>
+                        <outlet property="imgMonito" destination="m44-Hi-IAF" id="j1J-Pj-6Rl"/>
+                        <outlet property="imgNutria" destination="GzZ-P2-F28" id="zLA-hc-eCC"/>
+                        <outlet property="imgOsito" destination="75Q-3U-hGt" id="z1t-Ys-MB6"/>
+                        <outlet property="imgPerrito" destination="7Mi-fv-Avc" id="CQ5-Xc-8LI"/>
+                        <outlet property="imgTigrecito" destination="mSc-By-bVq" id="leE-dF-a4V"/>
+                        <outlet property="imgZorrito" destination="OBH-yT-ior" id="mQx-hq-GGg"/>
+                        <outlet property="txtAnimal" destination="wZa-eY-bPb" id="6Ig-49-Gnp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3Y4-qH-JEg" userLabel="tapPerrito">
+                    <connections>
+                        <action selector="doTapPerrito:" destination="BYZ-38-t0r" id="Hxh-JQ-rDp"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="bcO-NM-KvA" userLabel="tapGatito">
                     <connections>
                         <action selector="doTapGatito:" destination="BYZ-38-t0r" id="9Ub-Ef-Vhu"/>
@@ -156,6 +201,11 @@
                 <tapGestureRecognizer id="Gne-dy-1FD" userLabel="tapZorrito">
                     <connections>
                         <action selector="doTapZorrito:" destination="BYZ-38-t0r" id="x61-8C-l03"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="fLS-60-vre" userLabel="tapMonito">
+                    <connections>
+                        <action selector="doTapMonito:" destination="BYZ-38-t0r" id="VMf-ZR-XU5"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="C9T-Oa-Rvh" userLabel="tapTigrecito">
@@ -168,11 +218,6 @@
                         <action selector="doTapNutricita:" destination="BYZ-38-t0r" id="wz4-Fx-XfX"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="fLS-60-vre" userLabel="tapMonito">
-                    <connections>
-                        <action selector="doTapMonito:" destination="BYZ-38-t0r" id="VMf-ZR-XU5"/>
-                    </connections>
-                </tapGestureRecognizer>
                 <tapGestureRecognizer id="pQj-vh-NW0" userLabel="tapOsito">
                     <connections>
                         <action selector="doTapOsito:" destination="BYZ-38-t0r" id="GrY-sZ-hEl"/>
@@ -183,16 +228,7 @@
                         <action selector="doTapArdillita:" destination="BYZ-38-t0r" id="wAZ-cb-WaD"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="wd0-8c-JyD" userLabel="tapConejito">
-                    <connections>
-                        <action selector="doTapConejito:" destination="BYZ-38-t0r" id="AQ9-df-sjz"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="3Y4-qH-JEg" userLabel="tapPerrito">
-                    <connections>
-                        <action selector="doTapPerrito:" destination="BYZ-38-t0r" id="Hxh-JQ-rDp"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wd0-8c-JyD" userLabel="tapLobo"/>
             </objects>
             <point key="canvasLocation" x="-1922.4000000000001" y="95.802098950524751"/>
         </scene>
