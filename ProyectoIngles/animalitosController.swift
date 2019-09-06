@@ -159,6 +159,15 @@ class animalitosController: UIViewController {
         imgNutria.animationImages = imagenesNutria
         imgNutria.animationDuration = 0.7
         imgNutria.startAnimating()
+        
+        var imagenesOso: [UIImage] = []
+        for i in 1...9
+        {
+            imagenesOso.append(UIImage(named: "Oso"+"\(i)")!)
+        }
+        imgOsito.animationImages = imagenesOso
+        imgOsito.animationDuration = 0.7
+        imgOsito.startAnimating()
        
         
         
