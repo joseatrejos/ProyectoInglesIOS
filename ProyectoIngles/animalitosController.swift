@@ -32,11 +32,9 @@ class animalitosController: UIViewController {
             imgAnimacion.startAnimating()
         }
         
-        /*if(reproduccion){
+        if(reproduccion){
             let path = Bundle.main.path(forResource: "dog.mp3", ofType: nil)
             let url = URL(fileURLWithPath: path!)
-            reproduccion = false
-            
             do{
                 player = try AVAudioPlayer(contentsOf:url)
             }catch{}
@@ -46,7 +44,7 @@ class animalitosController: UIViewController {
         
         if player != nil {
             player?.play()
-        }*/
+        }
     }
     
     @IBAction func doTapGatito(_ sender: Any) {
@@ -66,10 +64,9 @@ class animalitosController: UIViewController {
             imgAnimacion.startAnimating()
         }
         
-        /*if(reproduccion){
+        if(reproduccion){
             let path = Bundle.main.path(forResource: "cat.mp3", ofType: nil)
             let url = URL(fileURLWithPath: path!)
-            reproduccion = false
             
             do{
                 player = try AVAudioPlayer(contentsOf:url)
@@ -81,7 +78,7 @@ class animalitosController: UIViewController {
         if player != nil {
             player?.play()
         }
- */
+
     }
     
     @IBAction func doTapZorrito(_ sender: Any) {
@@ -100,10 +97,9 @@ class animalitosController: UIViewController {
         {
             imgAnimacion.startAnimating()
         }
-        /*if(reproduccion){
+        if(reproduccion){
             let path = Bundle.main.path(forResource: "fox.mp3", ofType: nil)
             let url = URL(fileURLWithPath: path!)
-            reproduccion = false
             
             do{
                 player = try AVAudioPlayer(contentsOf:url)
@@ -114,13 +110,13 @@ class animalitosController: UIViewController {
         
         if player != nil {
             player?.play()
-        }*/
+        }
     }
     
     @IBAction func doTapTigrecito(_ sender: Any) {
         txtAnimal.text="Tiger"
         imagenesSecuenciaActiva.removeAll()
-        for i in 1...9
+        for i in 1...8
         {
             imagenesSecuenciaActiva.append(UIImage(named: txtAnimal.text!+"\(i)")!)
         }
@@ -133,10 +129,9 @@ class animalitosController: UIViewController {
         {
             imgAnimacion.startAnimating()
         }
-        /*if(reproduccion){
+        if(reproduccion){
             let path = Bundle.main.path(forResource: "tiger.mp3", ofType: nil)
             let url = URL(fileURLWithPath: path!)
-            reproduccion = false
             
             do{
                 player = try AVAudioPlayer(contentsOf:url)
@@ -147,7 +142,7 @@ class animalitosController: UIViewController {
         
         if player != nil {
             player?.play()
-        }*/
+        }
     }
     
     @IBAction func doTapNutricita(_ sender: Any) {
@@ -166,10 +161,9 @@ class animalitosController: UIViewController {
         {
             imgAnimacion.startAnimating()
         }
-        /*if(reproduccion){
+        if(reproduccion){
             let path = Bundle.main.path(forResource: "otter.mp3", ofType: nil)
             let url = URL(fileURLWithPath: path!)
-            reproduccion = false
             
             do{
                 player = try AVAudioPlayer(contentsOf:url)
@@ -180,40 +174,12 @@ class animalitosController: UIViewController {
         
         if player != nil {
             player?.play()
-        }*/
+        }
     }
     
     @IBAction func doTapMonito(_ sender: Any) {
         txtAnimal.text="Monkey"
-        imagenesSecuenciaActiva.removeAll()
-        for i in 1...9
-        {
-            imagenesSecuenciaActiva.append(UIImage(named: txtAnimal.text!+"\(i)")!)
-        }
-        imgAnimacion.animationImages = imagenesSecuenciaActiva
-        
-        if(imgAnimacion.isAnimating)
-        {
-            imgAnimacion.stopAnimating();
-        }else
-        {
-            imgAnimacion.startAnimating()
-        }
-       /* if(reproduccion){
-            let path = Bundle.main.path(forResource: "monkey.mp3", ofType: nil)
-            let url = URL(fileURLWithPath: path!)
-            reproduccion = false
-            
-            do{
-                player = try AVAudioPlayer(contentsOf:url)
-            }catch{}
-        }else{
-            reproduccion = true
-        }
-        
-        if player != nil {
-            player?.play()
-        }*/
+       
         
     }
     
@@ -234,11 +200,9 @@ class animalitosController: UIViewController {
             imgAnimacion.startAnimating()
         }
         
-        /*if(reproduccion){
+        if(reproduccion){
             let path = Bundle.main.path(forResource: "bear.mp3", ofType: nil)
             let url = URL(fileURLWithPath: path!)
-            reproduccion = false
-            
             do{
                 player = try AVAudioPlayer(contentsOf:url)
             }catch{}
@@ -248,41 +212,12 @@ class animalitosController: UIViewController {
         
         if player != nil {
             player?.play()
-        }*/
+        }
     }
     
     @IBAction func doTapArdillita(_ sender: Any) {
         txtAnimal.text="Squirrel"
-        imagenesSecuenciaActiva.removeAll()
-        for i in 1...9
-        {
-            imagenesSecuenciaActiva.append(UIImage(named: txtAnimal.text!+"\(i)")!)
-        }
-        imgAnimacion.animationImages = imagenesSecuenciaActiva
-        
-        if(imgAnimacion.isAnimating)
-        {
-            imgAnimacion.stopAnimating();
-        }else
-        {
-            imgAnimacion.startAnimating()
-        }
-        
-      /*  if(reproduccion){
-            let path = Bundle.main.path(forResource: "squirrel.mp3", ofType: nil)
-            let url = URL(fileURLWithPath: path!)
-            reproduccion = false
-            
-            do{
-                player = try AVAudioPlayer(contentsOf:url)
-            }catch{}
-        }else{
-            reproduccion = true
-        }
-        
-        if player != nil {
-            player?.play()
-        }*/
+
     }
   
     @IBAction func doTapLobito(_ sender: Any) {
@@ -302,10 +237,9 @@ class animalitosController: UIViewController {
             imgAnimacion.startAnimating()
         }
         
-      /*  if(reproduccion){
+       if(reproduccion){
             let path = Bundle.main.path(forResource: "wolf.mp3", ofType: nil)
             let url = URL(fileURLWithPath: path!)
-            reproduccion = false
             
             do{
                 player = try AVAudioPlayer(contentsOf:url)
@@ -316,7 +250,7 @@ class animalitosController: UIViewController {
         
         if player != nil {
             player?.play()
-        }*/
+        }
     }
     
     
@@ -370,15 +304,15 @@ class animalitosController: UIViewController {
         imgZorrito.animationDuration = 0.7
         imgZorrito.startAnimating()
         
-       /* var imagenesMono: [UIImage] = []
-        for i in 1...9
+        var imagenesMono: [UIImage] = []
+        for i in 1...8
         {
             imagenesMono.append(UIImage(named: "Mono"+"\(i)")!)
         }
         imgMonito.animationImages = imagenesMono
         imgMonito.animationDuration = 0.7
         imgMonito.startAnimating()
-        */
+       
         
         var imagenesLobo: [UIImage] = []
         for i in 1...9
@@ -389,16 +323,16 @@ class animalitosController: UIViewController {
         imgLobito.animationDuration = 0.7
         imgLobito.startAnimating()
         
-        /*
+        
         var imagenesTigre: [UIImage] = []
-        for i in 1...9
+        for i in 1...8
         {
             imagenesTigre.append(UIImage(named: "Tigre"+"\(i)")!)
         }
         imgTigrecito.animationImages = imagenesTigre
         imgTigrecito.animationDuration = 0.7
         imgTigrecito.startAnimating()
-        */
+     
         
         var imagenesNutria: [UIImage] = []
         for i in 1...9
@@ -418,14 +352,14 @@ class animalitosController: UIViewController {
         imgOsito.animationDuration = 0.7
         imgOsito.startAnimating()
         
-       /* var imagenesArdilla: [UIImage] = []
+        var imagenesArdilla: [UIImage] = []
         for i in 1...9
         {
             imagenesArdilla.append(UIImage(named: "Ardilla"+"\(i)")!)
         }
         imgArdillita.animationImages = imagenesArdilla
         imgArdillita.animationDuration = 0.7
-        imgArdillita.startAnimating()*/
+        imgArdillita.startAnimating()
        
         
         
