@@ -179,7 +179,34 @@ class animalitosController: UIViewController {
     
     @IBAction func doTapMonito(_ sender: Any) {
         txtAnimal.text="Monkey"
-       
+        imagenesSecuenciaActiva.removeAll()
+        for i in 1...8
+        {
+            imagenesSecuenciaActiva.append(UIImage(named: txtAnimal.text!+"\(i)")!)
+        }
+        imgAnimacion.animationImages = imagenesSecuenciaActiva
+        
+        if(imgAnimacion.isAnimating)
+        {
+            imgAnimacion.stopAnimating();
+        }else
+        {
+            imgAnimacion.startAnimating()
+        }
+        
+        if(reproduccion){
+            let path = Bundle.main.path(forResource: "monkey.mp3", ofType: nil)
+            let url = URL(fileURLWithPath: path!)
+            do{
+                player = try AVAudioPlayer(contentsOf:url)
+            }catch{}
+        }else{
+            reproduccion = true
+        }
+        
+        if player != nil {
+            player?.play()
+        }
         
     }
     
@@ -217,6 +244,34 @@ class animalitosController: UIViewController {
     
     @IBAction func doTapArdillita(_ sender: Any) {
         txtAnimal.text="Squirrel"
+        imagenesSecuenciaActiva.removeAll()
+        for i in 1...9
+        {
+            imagenesSecuenciaActiva.append(UIImage(named: txtAnimal.text!+"\(i)")!)
+        }
+        imgAnimacion.animationImages = imagenesSecuenciaActiva
+        
+        if(imgAnimacion.isAnimating)
+        {
+            imgAnimacion.stopAnimating();
+        }else
+        {
+            imgAnimacion.startAnimating()
+        }
+        
+        if(reproduccion){
+            let path = Bundle.main.path(forResource: "squirrel.mp3", ofType: nil)
+            let url = URL(fileURLWithPath: path!)
+            do{
+                player = try AVAudioPlayer(contentsOf:url)
+            }catch{}
+        }else{
+            reproduccion = true
+        }
+        
+        if player != nil {
+            player?.play()
+        }
 
     }
   
@@ -353,7 +408,7 @@ class animalitosController: UIViewController {
         imgOsito.startAnimating()
         
         var imagenesArdilla: [UIImage] = []
-        for i in 1...9
+        for i in 1...8
         {
             imagenesArdilla.append(UIImage(named: "Ardilla"+"\(i)")!)
         }
