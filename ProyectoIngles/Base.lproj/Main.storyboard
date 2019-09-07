@@ -292,7 +292,7 @@
         <!--Colores-->
         <scene sceneID="kFh-bx-2vt">
             <objects>
-                <viewController id="tt2-5s-uA9" userLabel="Colores" sceneMemberID="viewController">
+                <viewController id="tt2-5s-uA9" userLabel="Colores" customClass="ViewControllerColorcitos" customModule="ProyectoIngles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EZr-RL-5Ll">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,10 +351,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nIG-lD-e3e">
                                 <rect key="frame" x="0.0" y="364.33333333333326" width="375" height="447.66666666666674"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ehw-Ea-Dqe">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Amarillo01" translatesAutoresizingMaskIntoConstraints="NO" id="ehw-Ea-Dqe">
                                         <rect key="frame" x="0.0" y="0.0" width="126" height="150.33333333333334"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="x5U-1B-r4I" appends="YES" id="AMs-bh-mNx"/>
+                                        </connections>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g27-5e-ovR">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Azul01" translatesAutoresizingMaskIntoConstraints="NO" id="g27-5e-ovR">
                                         <rect key="frame" x="124.33333333333334" y="0.0" width="126.33333333333334" height="150.33333333333334"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qdf-Fu-yZ4">
@@ -677,6 +681,17 @@
                         <viewLayoutGuide key="safeArea" id="0b8-R3-GVB"/>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="2dK-dQ-jDX"/>
+                                <exclude reference="DAg-Rv-MAD"/>
+                                <exclude reference="0lw-WS-ZpZ"/>
+                                <exclude reference="46b-8L-gJu"/>
+                                <exclude reference="Jqw-Da-1Fw"/>
+                                <exclude reference="O1o-sg-9YZ"/>
+                                <exclude reference="RFT-N4-vMf"/>
+                                <exclude reference="ePR-BD-Se3"/>
+                                <exclude reference="kCE-RD-8GX"/>
+                                <exclude reference="t5l-2P-4n1"/>
+                                <exclude reference="vRc-lu-MdX"/>
                                 <exclude reference="C0K-W2-yPs"/>
                                 <exclude reference="GaN-ia-8Wp"/>
                                 <exclude reference="JNf-Vx-41m"/>
@@ -692,21 +707,27 @@
                                 <exclude reference="SFq-HQ-f1a"/>
                                 <exclude reference="SHg-lr-X2k"/>
                                 <exclude reference="cAa-af-J3l"/>
-                                <exclude reference="0lw-WS-ZpZ"/>
-                                <exclude reference="46b-8L-gJu"/>
-                                <exclude reference="Jqw-Da-1Fw"/>
-                                <exclude reference="O1o-sg-9YZ"/>
-                                <exclude reference="RFT-N4-vMf"/>
-                                <exclude reference="ePR-BD-Se3"/>
-                                <exclude reference="kCE-RD-8GX"/>
-                                <exclude reference="t5l-2P-4n1"/>
-                                <exclude reference="vRc-lu-MdX"/>
-                                <exclude reference="2dK-dQ-jDX"/>
-                                <exclude reference="DAg-Rv-MAD"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
+                                <exclude reference="2dK-dQ-jDX"/>
+                                <exclude reference="DAg-Rv-MAD"/>
+                                <exclude reference="FIn-Fg-Dbm"/>
+                                <exclude reference="tIk-qx-Iot"/>
+                                <exclude reference="vdD-U3-kPC"/>
+                                <exclude reference="0lw-WS-ZpZ"/>
+                                <include reference="46b-8L-gJu"/>
+                                <exclude reference="FGa-2U-1lD"/>
+                                <include reference="Jqw-Da-1Fw"/>
+                                <exclude reference="MUp-C9-5cv"/>
+                                <exclude reference="O1o-sg-9YZ"/>
+                                <exclude reference="RFT-N4-vMf"/>
+                                <exclude reference="ePR-BD-Se3"/>
+                                <include reference="kCE-RD-8GX"/>
+                                <exclude reference="qCJ-UL-9eE"/>
+                                <include reference="t5l-2P-4n1"/>
+                                <exclude reference="vRc-lu-MdX"/>
                                 <include reference="C0K-W2-yPs"/>
                                 <exclude reference="GaN-ia-8Wp"/>
                                 <include reference="JNf-Vx-41m"/>
@@ -728,28 +749,20 @@
                                 <include reference="SFq-HQ-f1a"/>
                                 <include reference="SHg-lr-X2k"/>
                                 <include reference="cAa-af-J3l"/>
-                                <exclude reference="0lw-WS-ZpZ"/>
-                                <include reference="46b-8L-gJu"/>
-                                <exclude reference="FGa-2U-1lD"/>
-                                <include reference="Jqw-Da-1Fw"/>
-                                <exclude reference="MUp-C9-5cv"/>
-                                <exclude reference="O1o-sg-9YZ"/>
-                                <exclude reference="RFT-N4-vMf"/>
-                                <exclude reference="ePR-BD-Se3"/>
-                                <include reference="kCE-RD-8GX"/>
-                                <exclude reference="qCJ-UL-9eE"/>
-                                <include reference="t5l-2P-4n1"/>
-                                <exclude reference="vRc-lu-MdX"/>
-                                <exclude reference="2dK-dQ-jDX"/>
-                                <exclude reference="DAg-Rv-MAD"/>
-                                <exclude reference="FIn-Fg-Dbm"/>
-                                <exclude reference="tIk-qx-Iot"/>
-                                <exclude reference="vdD-U3-kPC"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="AmarilloSecuencia" destination="ehw-Ea-Dqe" id="pDV-LH-EXf"/>
+                        <outlet property="azulSecuencia" destination="g27-5e-ovR" id="A8V-G5-qwx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pOO-UF-UXX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="x5U-1B-r4I" userLabel="Amarillo">
+                    <connections>
+                        <action selector="doTapAmarillo:" destination="tt2-5s-uA9" id="2bL-kc-bn2"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2680.7881773399017" y="104.8"/>
         </scene>
@@ -812,7 +825,7 @@
                                         <rect key="frame" x="125.33333333333331" y="149.00000000000006" width="124.66666666666669" height="150"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.89881858049723151" green="1" blue="0.6110829107927559" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.55337568670985049" green="1" blue="0.67246258122951574" alpha="0.6223591549295775" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="YGc-MR-QKh" firstAttribute="height" secondItem="y8f-4c-pPr" secondAttribute="height" multiplier="0.3333" id="0eX-fj-GI5">
                                         <variation key="heightClass=compact" constant="1"/>
@@ -1076,6 +1089,7 @@
                                 <exclude reference="fVA-PW-yqj"/>
                                 <exclude reference="jxi-v0-9ff"/>
                                 <exclude reference="pOY-ez-mlO"/>
+                                <exclude reference="n3o-O4-Wr2"/>
                                 <exclude reference="6bh-Ps-lFi"/>
                                 <exclude reference="jvI-rW-oRn"/>
                                 <exclude reference="7K9-20-Nmh"/>
@@ -1088,7 +1102,6 @@
                                 <exclude reference="phg-jZ-qQx"/>
                                 <exclude reference="rxr-QV-pEc"/>
                                 <exclude reference="tWn-Qp-fOf"/>
-                                <exclude reference="n3o-O4-Wr2"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -1104,6 +1117,7 @@
                                 <include reference="jxi-v0-9ff"/>
                                 <include reference="pOY-ez-mlO"/>
                                 <exclude reference="uc7-up-GYs"/>
+                                <exclude reference="n3o-O4-Wr2"/>
                                 <include reference="6bh-Ps-lFi"/>
                                 <include reference="jvI-rW-oRn"/>
                                 <exclude reference="0mT-YV-8lF"/>
@@ -1131,7 +1145,6 @@
                                 <exclude reference="gsO-5y-yjc"/>
                                 <exclude reference="fyO-Xh-6eS"/>
                                 <exclude reference="weU-Ao-oJE"/>
-                                <exclude reference="n3o-O4-Wr2"/>
                             </mask>
                         </variation>
                     </view>
@@ -1142,6 +1155,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Amarillo01" width="1920" height="1080"/>
+        <image name="Azul01" width="1920" height="1080"/>
         <image name="FondoColores" width="1150" height="2487"/>
         <image name="FondoMenu" width="131" height="284"/>
         <image name="Regresar" width="344" height="300"/>
