@@ -356,7 +356,7 @@ class animalitosController: UIViewController {
             imagenesZorro.append(UIImage(named: "Zorro"+"\(i)")!)
         }
         imgZorrito.animationImages = imagenesZorro
-        imgZorrito.animationDuration = 0.7
+        imgZorrito.animationDuration = 1.8
         imgZorrito.startAnimating()
         
         var imagenesMono: [UIImage] = []
@@ -365,7 +365,7 @@ class animalitosController: UIViewController {
             imagenesMono.append(UIImage(named: "Mono"+"\(i)")!)
         }
         imgMonito.animationImages = imagenesMono
-        imgMonito.animationDuration = 0.7
+        imgMonito.animationDuration = 1.8
         imgMonito.startAnimating()
        
         
@@ -385,7 +385,7 @@ class animalitosController: UIViewController {
             imagenesTigre.append(UIImage(named: "Tigre"+"\(i)")!)
         }
         imgTigrecito.animationImages = imagenesTigre
-        imgTigrecito.animationDuration = 0.7
+        imgTigrecito.animationDuration = 1.8
         imgTigrecito.startAnimating()
      
         
@@ -395,7 +395,7 @@ class animalitosController: UIViewController {
             imagenesNutria.append(UIImage(named: "Nutria"+"\(i)")!)
         }
         imgNutria.animationImages = imagenesNutria
-        imgNutria.animationDuration = 0.7
+        imgNutria.animationDuration = 1.52
         imgNutria.startAnimating()
         
         var imagenesOso: [UIImage] = []
@@ -404,7 +404,7 @@ class animalitosController: UIViewController {
             imagenesOso.append(UIImage(named: "Oso"+"\(i)")!)
         }
         imgOsito.animationImages = imagenesOso
-        imgOsito.animationDuration = 0.7
+        imgOsito.animationDuration = 1.0
         imgOsito.startAnimating()
         
         var imagenesArdilla: [UIImage] = []
@@ -413,8 +413,17 @@ class animalitosController: UIViewController {
             imagenesArdilla.append(UIImage(named: "Ardilla"+"\(i)")!)
         }
         imgArdillita.animationImages = imagenesArdilla
-        imgArdillita.animationDuration = 0.7
+        imgArdillita.animationDuration = 1.0
         imgArdillita.startAnimating()
+        
+        var imagenesAnimales: [UIImage] = []
+        for i in 1...8
+        {
+            imagenesAnimales.append(UIImage(named: "Animales"+"\(i)")!)
+        }
+        imgAnimacion.animationImages = imagenesAnimales
+        imgAnimacion.animationDuration = 2.2
+        imgAnimacion.startAnimating()
        
         
         
