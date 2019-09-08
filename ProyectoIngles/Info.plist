@@ -40,6 +40,12 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<dict/>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poetsen One - Regular.ttf</string>
+		<string>Source Serif Pro - Regular.otf</string>
 	</array>
 </dict>
 </plist>
