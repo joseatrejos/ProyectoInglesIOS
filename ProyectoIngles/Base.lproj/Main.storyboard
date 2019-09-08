@@ -305,26 +305,35 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAR-vo-9ba">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="366.33333333333331"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcj-TX-G2q">
-                                        <rect key="frame" x="20" y="327" width="47" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcj-TX-G2q">
+                                        <rect key="frame" x="20" y="327.33333333333331" width="47" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="47" id="V1B-AN-vhp"/>
+                                            <constraint firstAttribute="height" constant="32" id="gfo-Jv-NPY"/>
+                                        </constraints>
                                         <state key="normal" title="Regresar" image="Regresar"/>
+                                        <connections>
+                                            <segue destination="0VE-wg-zdL" kind="show" id="DBY-Oz-b9w"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLP-jt-Oj2">
-                                        <rect key="frame" x="161.66666666666666" y="327.33333333333331" width="52" height="20"/>
+                                        <rect key="frame" x="162" y="327.33333333333331" width="51" height="20"/>
                                         <fontDescription key="fontDescription" name="PoetsenOne-Regular" family="Poetsen One" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Igk-En-tOg">
-                                        <rect key="frame" x="40" y="59" width="295" height="259.66666666666669"/>
+                                        <rect key="frame" x="40" y="59" width="295" height="260"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.98369004594569942" blue="0.56553922703693593" alpha="0.37731073943661969" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.37292530247237798" blue="0.1153467752909707" alpha="0.62857614436619713" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="pcj-TX-G2q" firstAttribute="leading" secondItem="WAR-vo-9ba" secondAttribute="leading" constant="20" id="N9S-su-SRs"/>
+                                    <constraint firstItem="pcj-TX-G2q" firstAttribute="top" secondItem="PLP-jt-Oj2" secondAttribute="top" id="STa-wT-Xg8"/>
                                     <constraint firstAttribute="trailing" secondItem="Igk-En-tOg" secondAttribute="trailing" constant="40" id="Wmr-zC-vkW"/>
                                     <constraint firstItem="Igk-En-tOg" firstAttribute="centerY" secondItem="WAR-vo-9ba" secondAttribute="centerY" id="Zl0-s2-h2L"/>
                                     <constraint firstItem="Igk-En-tOg" firstAttribute="centerX" secondItem="WAR-vo-9ba" secondAttribute="centerX" id="Zzn-Hx-cJZ"/>
+                                    <constraint firstItem="PLP-jt-Oj2" firstAttribute="leading" secondItem="pcj-TX-G2q" secondAttribute="trailing" constant="95" id="aYt-z4-3HZ"/>
                                     <constraint firstItem="Igk-En-tOg" firstAttribute="top" secondItem="WAR-vo-9ba" secondAttribute="top" constant="60" id="fHC-TR-QeY"/>
                                     <constraint firstAttribute="bottom" secondItem="PLP-jt-Oj2" secondAttribute="bottom" constant="19" id="fhb-Mg-Orx"/>
                                     <constraint firstItem="Igk-En-tOg" firstAttribute="centerY" secondItem="WAR-vo-9ba" secondAttribute="centerY" id="lIR-hM-2ld"/>
@@ -417,7 +426,7 @@
                                         </connections>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.63376849047785866" blue="0.47912451986281623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.63376849047785866" blue="0.47912451986281623" alpha="0.042611135563380281" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="cGx-KB-YSd" firstAttribute="centerY" secondItem="nIG-lD-e3e" secondAttribute="centerY" id="2pG-9J-BJT"/>
                                     <constraint firstAttribute="bottom" secondItem="4hk-cf-gGX" secondAttribute="bottom" id="62W-rZ-dhu"/>
@@ -789,7 +798,14 @@
                     <connections>
                         <outlet property="imgAmarillo" destination="ehw-Ea-Dqe" id="MN1-jC-r2K"/>
                         <outlet property="imgAzul" destination="g27-5e-ovR" id="Exv-B1-B6E"/>
+                        <outlet property="imgBlanco" destination="cGx-KB-YSd" id="S0R-SL-WTN"/>
                         <outlet property="imgColorSeleccionado" destination="Igk-En-tOg" id="5aF-o3-8vL"/>
+                        <outlet property="imgMorado" destination="wv9-Es-5JT" id="hUd-Vb-zcI"/>
+                        <outlet property="imgNaranja" destination="LAT-XI-ID4" id="tJi-pd-Zch"/>
+                        <outlet property="imgNegro" destination="4hk-cf-gGX" id="uHz-mQ-WXR"/>
+                        <outlet property="imgRojo" destination="qdf-Fu-yZ4" id="piq-FP-Opt"/>
+                        <outlet property="imgRosa" destination="ONQ-cc-sOa" id="qHz-wD-sQe"/>
+                        <outlet property="imgVerde" destination="4PI-j1-da8" id="GRw-1N-YyV"/>
                         <outlet property="lblColorSeleccionado" destination="PLP-jt-Oj2" id="bKh-Ca-uMe"/>
                     </connections>
                 </viewController>
@@ -834,11 +850,7 @@
                         <action selector="tapMorado:" destination="tt2-5s-uA9" id="UDS-bC-eKY"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="SkA-h0-Bs0" userLabel="tapGestureNaranja">
-                    <connections>
-                        <action selector="tapNaranja:" destination="tt2-5s-uA9" id="XRi-qD-KUb"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="SkA-h0-Bs0" userLabel="tapGestureNaranja"/>
             </objects>
             <point key="canvasLocation" x="2679.1999999999998" y="104.1871921182266"/>
         </scene>
