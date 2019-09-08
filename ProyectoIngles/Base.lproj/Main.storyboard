@@ -338,7 +338,7 @@
                                     <constraint firstAttribute="bottom" secondItem="PLP-jt-Oj2" secondAttribute="bottom" constant="19" id="fhb-Mg-Orx"/>
                                     <constraint firstItem="Igk-En-tOg" firstAttribute="centerY" secondItem="WAR-vo-9ba" secondAttribute="centerY" id="lIR-hM-2ld"/>
                                     <constraint firstItem="Igk-En-tOg" firstAttribute="leading" secondItem="WAR-vo-9ba" secondAttribute="leading" constant="40" id="oFg-uQ-idM"/>
-                                    <constraint firstItem="PLP-jt-Oj2" firstAttribute="firstBaseline" secondItem="Igk-En-tOg" secondAttribute="baseline" constant="24.333333333333332" symbolType="layoutAnchor" id="uE8-EV-ARf"/>
+                                    <constraint firstItem="PLP-jt-Oj2" firstAttribute="firstBaseline" secondItem="Igk-En-tOg" secondAttribute="baseline" constant="24.666666666666668" symbolType="layoutAnchor" id="uE8-EV-ARf"/>
                                     <constraint firstItem="PLP-jt-Oj2" firstAttribute="centerX" secondItem="WAR-vo-9ba" secondAttribute="centerX" id="wMf-Ud-0yJ"/>
                                 </constraints>
                                 <variation key="default">
@@ -362,67 +362,67 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nIG-lD-e3e">
                                 <rect key="frame" x="0.0" y="364.33333333333326" width="375" height="447.66666666666674"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Amarillo01" translatesAutoresizingMaskIntoConstraints="NO" id="ehw-Ea-Dqe" userLabel="imgAmarillo">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Amarillo01" translatesAutoresizingMaskIntoConstraints="NO" id="ehw-Ea-Dqe" userLabel="imgAmarillo">
                                         <rect key="frame" x="0.0" y="0.0" width="126" height="150.33333333333334"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="6Az-L7-QSr" appends="YES" id="yNb-dH-DDJ"/>
                                         </connections>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Azul01" translatesAutoresizingMaskIntoConstraints="NO" id="g27-5e-ovR">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Azul01" translatesAutoresizingMaskIntoConstraints="NO" id="g27-5e-ovR">
                                         <rect key="frame" x="124.66666666666666" y="0.0" width="125.66666666666666" height="150.33333333333334"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="KAk-yd-JAE" appends="YES" id="rTa-53-KhS"/>
                                         </connections>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qdf-Fu-yZ4">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blanco01" translatesAutoresizingMaskIntoConstraints="NO" id="qdf-Fu-yZ4">
                                         <rect key="frame" x="249" y="0.0" width="126" height="150.33333333333334"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="tZI-gl-mgu" appends="YES" id="cAb-Q9-hQH"/>
                                         </connections>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ONQ-cc-sOa">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rosa01" translatesAutoresizingMaskIntoConstraints="NO" id="ONQ-cc-sOa">
                                         <rect key="frame" x="124.66666666666666" y="150.33333333333331" width="125.66666666666666" height="150"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="qPj-Je-ne5" appends="YES" id="G9V-qL-nyB"/>
                                         </connections>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cGx-KB-YSd">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Negro01" translatesAutoresizingMaskIntoConstraints="NO" id="cGx-KB-YSd">
                                         <rect key="frame" x="249" y="150.33333333333331" width="126" height="150"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="czS-fl-eX2" appends="YES" id="BqL-Jb-x4e"/>
                                         </connections>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wv9-Es-5JT">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rosa01" translatesAutoresizingMaskIntoConstraints="NO" id="wv9-Es-5JT">
                                         <rect key="frame" x="124.66666666666666" y="297.33333333333331" width="125.66666666666666" height="150.33333333333331"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="8kS-vN-o35" appends="YES" id="BHn-Uz-MHh"/>
                                         </connections>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LAT-XI-ID4">
-                                        <rect key="frame" x="249" y="297.33333333333331" width="126" height="150.33333333333331"/>
-                                        <gestureRecognizers/>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="SkA-h0-Bs0" appends="YES" id="6Kb-yM-1ZB"/>
-                                        </connections>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4hk-cf-gGX">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rojo01" translatesAutoresizingMaskIntoConstraints="NO" id="4hk-cf-gGX">
                                         <rect key="frame" x="0.0" y="297.33333333333331" width="126" height="150.33333333333331"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="zab-Cd-NMk" appends="YES" id="aPn-vw-Dzo"/>
                                         </connections>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4PI-j1-da8">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Morado01" translatesAutoresizingMaskIntoConstraints="NO" id="4PI-j1-da8">
                                         <rect key="frame" x="-3" y="150" width="126" height="150"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="y9c-q3-nM9" appends="YES" id="6p0-79-0ST"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Naranja01" translatesAutoresizingMaskIntoConstraints="NO" id="LAT-XI-ID4">
+                                        <rect key="frame" x="258" y="297" width="126" height="150.33333333333331"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="SkA-h0-Bs0" appends="YES" id="6Kb-yM-1ZB"/>
                                         </connections>
                                     </imageView>
                                 </subviews>
@@ -850,7 +850,11 @@
                         <action selector="tapMorado:" destination="tt2-5s-uA9" id="UDS-bC-eKY"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="SkA-h0-Bs0" userLabel="tapGestureNaranja"/>
+                <tapGestureRecognizer id="SkA-h0-Bs0" userLabel="tapGestureNaranja">
+                    <connections>
+                        <action selector="tapNaranja:" destination="tt2-5s-uA9" id="DOG-1S-dkq"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2679.1999999999998" y="104.1871921182266"/>
         </scene>
@@ -1246,8 +1250,14 @@
     <resources>
         <image name="Amarillo01" width="1920" height="1080"/>
         <image name="Azul01" width="1920" height="1080"/>
+        <image name="Blanco01" width="1920" height="1080"/>
         <image name="FondoColores" width="1150" height="2487.666748046875"/>
         <image name="FondoMenu" width="131.33332824707031" height="284"/>
+        <image name="Morado01" width="1920" height="1080"/>
+        <image name="Naranja01" width="1920" height="1080"/>
+        <image name="Negro01" width="1920" height="1080"/>
         <image name="Regresar" width="344" height="300.33334350585938"/>
+        <image name="Rojo01" width="1920" height="1080"/>
+        <image name="Rosa01" width="1920" height="1080"/>
     </resources>
 </document>

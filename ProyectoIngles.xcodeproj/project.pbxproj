@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA934AD2325AAD60054C8B3 /* yellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934AC2325AAD60054C8B3 /* yellow.mp3 */; };
+		3CA934AF2325AAE20054C8B3 /* white.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934AE2325AAE20054C8B3 /* white.mp3 */; };
+		3CA934B12325AAEA0054C8B3 /* red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934B02325AAEA0054C8B3 /* red.mp3 */; };
+		3CA934B32325AAF60054C8B3 /* purple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934B22325AAF60054C8B3 /* purple.mp3 */; };
+		3CA934B72325AB200054C8B3 /* pink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934B62325AB200054C8B3 /* pink.mp3 */; };
+		3CA934B92325AB280054C8B3 /* orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934B82325AB280054C8B3 /* orange.mp3 */; };
+		3CA934BB2325AB360054C8B3 /* green.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934BA2325AB360054C8B3 /* green.mp3 */; };
+		3CA934BD2325AB3C0054C8B3 /* colors.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934BC2325AB3C0054C8B3 /* colors.mp3 */; };
+		3CA934BF2325AB470054C8B3 /* blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934BE2325AB460054C8B3 /* blue.mp3 */; };
+		3CA934C12325AB4E0054C8B3 /* black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934C02325AB4E0054C8B3 /* black.mp3 */; };
+		3CA934C32325AD600054C8B3 /* Poetsen One - Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934C22325AD5F0054C8B3 /* Poetsen One - Regular.ttf */; };
+		3CA934C52325AD6A0054C8B3 /* Source Serif Pro - Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3CA934C42325AD6A0054C8B3 /* Source Serif Pro - Regular.otf */; };
 		3DCF5D862315C44D00B55EE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5D852315C44D00B55EE8 /* AppDelegate.swift */; };
 		3DCF5D882315C44D00B55EE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5D872315C44D00B55EE8 /* ViewController.swift */; };
 		3DCF5D8B2315C44D00B55EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCF5D892315C44D00B55EE8 /* Main.storyboard */; };
@@ -15,18 +27,6 @@
 		3DCF5D9B2315C45000B55EE8 /* ProyectoInglesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5D9A2315C45000B55EE8 /* ProyectoInglesTests.swift */; };
 		3DCF5DA62315C45000B55EE8 /* ProyectoInglesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF5DA52315C45000B55EE8 /* ProyectoInglesUITests.swift */; };
 		3DD5E4532324288500CA8DD6 /* ViewControlleraColorcitos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD5E4522324288500CA8DD6 /* ViewControlleraColorcitos.swift */; };
-		F6E1E9EB232475F600A11788 /* black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9E1232475F600A11788 /* black.mp3 */; };
-		F6E1E9EC232475F600A11788 /* purple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9E2232475F600A11788 /* purple.mp3 */; };
-		F6E1E9ED232475F600A11788 /* yellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9E3232475F600A11788 /* yellow.mp3 */; };
-		F6E1E9EE232475F600A11788 /* orange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9E4232475F600A11788 /* orange.mp3 */; };
-		F6E1E9EF232475F600A11788 /* white.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9E5232475F600A11788 /* white.mp3 */; };
-		F6E1E9F0232475F600A11788 /* red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9E6232475F600A11788 /* red.mp3 */; };
-		F6E1E9F1232475F600A11788 /* pink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9E7232475F600A11788 /* pink.mp3 */; };
-		F6E1E9F2232475F600A11788 /* green.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9E8232475F600A11788 /* green.mp3 */; };
-		F6E1E9F3232475F600A11788 /* blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9E9232475F600A11788 /* blue.mp3 */; };
-		F6E1E9F4232475F600A11788 /* colors.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E1E9EA232475F600A11788 /* colors.mp3 */; };
-		F6E1EA0323247ABD00A11788 /* Source Serif Pro - Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F6E1EA0123247ABD00A11788 /* Source Serif Pro - Regular.otf */; };
-		F6E1EA0423247ABD00A11788 /* Poetsen One - Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6E1EA0223247ABD00A11788 /* Poetsen One - Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CA934AC2325AAD60054C8B3 /* yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yellow.mp3; sourceTree = "<group>"; };
+		3CA934AE2325AAE20054C8B3 /* white.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = white.mp3; sourceTree = "<group>"; };
+		3CA934B02325AAEA0054C8B3 /* red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = red.mp3; sourceTree = "<group>"; };
+		3CA934B22325AAF60054C8B3 /* purple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = purple.mp3; sourceTree = "<group>"; };
+		3CA934B62325AB200054C8B3 /* pink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pink.mp3; sourceTree = "<group>"; };
+		3CA934B82325AB280054C8B3 /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orange.mp3; sourceTree = "<group>"; };
+		3CA934BA2325AB360054C8B3 /* green.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = green.mp3; sourceTree = "<group>"; };
+		3CA934BC2325AB3C0054C8B3 /* colors.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = colors.mp3; sourceTree = "<group>"; };
+		3CA934BE2325AB460054C8B3 /* blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blue.mp3; sourceTree = "<group>"; };
+		3CA934C02325AB4E0054C8B3 /* black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = black.mp3; sourceTree = "<group>"; };
+		3CA934C22325AD5F0054C8B3 /* Poetsen One - Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poetsen One - Regular.ttf"; sourceTree = "<group>"; };
+		3CA934C42325AD6A0054C8B3 /* Source Serif Pro - Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Source Serif Pro - Regular.otf"; sourceTree = "<group>"; };
 		3DCF5D822315C44D00B55EE8 /* ProyectoIngles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoIngles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCF5D852315C44D00B55EE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DCF5D872315C44D00B55EE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,18 +73,6 @@
 		3DCF5DA52315C45000B55EE8 /* ProyectoInglesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoInglesUITests.swift; sourceTree = "<group>"; };
 		3DCF5DA72315C45000B55EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DD5E4522324288500CA8DD6 /* ViewControlleraColorcitos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlleraColorcitos.swift; sourceTree = "<group>"; };
-		F6E1E9E1232475F600A11788 /* black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = black.mp3; path = ../../../Downloads/black.mp3; sourceTree = "<group>"; };
-		F6E1E9E2232475F600A11788 /* purple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = purple.mp3; path = ../../../Downloads/purple.mp3; sourceTree = "<group>"; };
-		F6E1E9E3232475F600A11788 /* yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yellow.mp3; path = ../../../Downloads/yellow.mp3; sourceTree = "<group>"; };
-		F6E1E9E4232475F600A11788 /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = orange.mp3; path = ../../../Downloads/orange.mp3; sourceTree = "<group>"; };
-		F6E1E9E5232475F600A11788 /* white.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = white.mp3; path = ../../../Downloads/white.mp3; sourceTree = "<group>"; };
-		F6E1E9E6232475F600A11788 /* red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = red.mp3; path = ../../../Downloads/red.mp3; sourceTree = "<group>"; };
-		F6E1E9E7232475F600A11788 /* pink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pink.mp3; path = ../../../Downloads/pink.mp3; sourceTree = "<group>"; };
-		F6E1E9E8232475F600A11788 /* green.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = green.mp3; path = ../../../Downloads/green.mp3; sourceTree = "<group>"; };
-		F6E1E9E9232475F600A11788 /* blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blue.mp3; path = ../../../Downloads/blue.mp3; sourceTree = "<group>"; };
-		F6E1E9EA232475F600A11788 /* colors.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = colors.mp3; path = ../../../Downloads/colors.mp3; sourceTree = "<group>"; };
-		F6E1EA0123247ABD00A11788 /* Source Serif Pro - Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Source Serif Pro - Regular.otf"; path = "../../../Downloads/Source Serif Pro - Regular.otf"; sourceTree = "<group>"; };
-		F6E1EA0223247ABD00A11788 /* Poetsen One - Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poetsen One - Regular.ttf"; path = "../../../Downloads/Poetsen One - Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,21 +123,21 @@
 		3DCF5D842315C44D00B55EE8 /* ProyectoIngles */ = {
 			isa = PBXGroup;
 			children = (
-				F6E1EA0223247ABD00A11788 /* Poetsen One - Regular.ttf */,
-				F6E1EA0123247ABD00A11788 /* Source Serif Pro - Regular.otf */,
-				F6E1E9E1232475F600A11788 /* black.mp3 */,
-				F6E1E9E9232475F600A11788 /* blue.mp3 */,
-				F6E1E9EA232475F600A11788 /* colors.mp3 */,
-				F6E1E9E8232475F600A11788 /* green.mp3 */,
-				F6E1E9E4232475F600A11788 /* orange.mp3 */,
-				F6E1E9E7232475F600A11788 /* pink.mp3 */,
-				F6E1E9E2232475F600A11788 /* purple.mp3 */,
-				F6E1E9E6232475F600A11788 /* red.mp3 */,
-				F6E1E9E5232475F600A11788 /* white.mp3 */,
-				F6E1E9E3232475F600A11788 /* yellow.mp3 */,
+				3CA934AE2325AAE20054C8B3 /* white.mp3 */,
+				3CA934B02325AAEA0054C8B3 /* red.mp3 */,
+				3CA934C22325AD5F0054C8B3 /* Poetsen One - Regular.ttf */,
+				3CA934AC2325AAD60054C8B3 /* yellow.mp3 */,
+				3CA934B62325AB200054C8B3 /* pink.mp3 */,
+				3CA934BE2325AB460054C8B3 /* blue.mp3 */,
+				3CA934C42325AD6A0054C8B3 /* Source Serif Pro - Regular.otf */,
+				3CA934C02325AB4E0054C8B3 /* black.mp3 */,
 				3DD5E4522324288500CA8DD6 /* ViewControlleraColorcitos.swift */,
+				3CA934B82325AB280054C8B3 /* orange.mp3 */,
+				3CA934BA2325AB360054C8B3 /* green.mp3 */,
 				3DCF5D852315C44D00B55EE8 /* AppDelegate.swift */,
+				3CA934BC2325AB3C0054C8B3 /* colors.mp3 */,
 				3DCF5D872315C44D00B55EE8 /* ViewController.swift */,
+				3CA934B22325AAF60054C8B3 /* purple.mp3 */,
 				3DCF5D892315C44D00B55EE8 /* Main.storyboard */,
 				3DCF5D8C2315C44F00B55EE8 /* Assets.xcassets */,
 				3DCF5D8E2315C44F00B55EE8 /* LaunchScreen.storyboard */,
@@ -268,21 +268,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E1E9EF232475F600A11788 /* white.mp3 in Resources */,
-				F6E1E9EB232475F600A11788 /* black.mp3 in Resources */,
-				F6E1E9F4232475F600A11788 /* colors.mp3 in Resources */,
-				F6E1E9F3232475F600A11788 /* blue.mp3 in Resources */,
+				3CA934BB2325AB360054C8B3 /* green.mp3 in Resources */,
+				3CA934B12325AAEA0054C8B3 /* red.mp3 in Resources */,
+				3CA934BD2325AB3C0054C8B3 /* colors.mp3 in Resources */,
 				3DCF5D902315C44F00B55EE8 /* LaunchScreen.storyboard in Resources */,
-				F6E1E9F0232475F600A11788 /* red.mp3 in Resources */,
-				F6E1EA0423247ABD00A11788 /* Poetsen One - Regular.ttf in Resources */,
-				F6E1E9EC232475F600A11788 /* purple.mp3 in Resources */,
+				3CA934AF2325AAE20054C8B3 /* white.mp3 in Resources */,
+				3CA934B92325AB280054C8B3 /* orange.mp3 in Resources */,
+				3CA934C32325AD600054C8B3 /* Poetsen One - Regular.ttf in Resources */,
 				3DCF5D8D2315C44F00B55EE8 /* Assets.xcassets in Resources */,
-				F6E1E9F2232475F600A11788 /* green.mp3 in Resources */,
-				F6E1E9F1232475F600A11788 /* pink.mp3 in Resources */,
-				F6E1E9ED232475F600A11788 /* yellow.mp3 in Resources */,
-				F6E1EA0323247ABD00A11788 /* Source Serif Pro - Regular.otf in Resources */,
-				F6E1E9EE232475F600A11788 /* orange.mp3 in Resources */,
+				3CA934BF2325AB470054C8B3 /* blue.mp3 in Resources */,
+				3CA934B32325AAF60054C8B3 /* purple.mp3 in Resources */,
+				3CA934B72325AB200054C8B3 /* pink.mp3 in Resources */,
+				3CA934C52325AD6A0054C8B3 /* Source Serif Pro - Regular.otf in Resources */,
+				3CA934AD2325AAD60054C8B3 /* yellow.mp3 in Resources */,
 				3DCF5D8B2315C44D00B55EE8 /* Main.storyboard in Resources */,
+				3CA934C12325AB4E0054C8B3 /* black.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

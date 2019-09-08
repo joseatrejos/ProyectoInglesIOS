@@ -166,15 +166,15 @@ class ViewControllerColorcitos: UIViewController {
         var arregloUIImage : [UIImage] = []
         
         
-        let arregloAzulSeleccionado : [String] =  ["Azul0", "Azul1", "Azul2",  "Azul3", "Azul4", "Azul5", "Azul6", "Azul7", "Azul8"]
-        let arregloRojoSeleccionado : [String] = ["Rojo_00000", "Rojo_00001", "Rojo_00002",  "Rojo_00003", "Rojo_00004", "Rojo_00005", "Rojo_00006", "Rojo_00007", "Rojo_00008"]
-        let arregloVerdeSeleccionado : [String] =  ["Verdes0", "Verdes1", "Verdes2",  "Verdes3", "Verdes4"]
-        let arregloRosaSeleccionado : [String] =  ["Rosa0", "Rosa1", "Rosa2",  "Rosa3", "Rosa4", "Rosa5", "Rosa6", "Rosa7", "Rosa8"]
-        let arregloBlancoSeleccionado : [String] = ["Blanco_00000", "Blanco_00001", "Blanco_00002",  "Blanco_00003", "Blanco_00004", "Blanco_00005", "Blanco_00006", "Blanco_00007", "Blanco_00008"]
-        let arregloNegroSeleccionado : [String] =  ["Negro0", "Negro1", "Negro2",  "Negro3", "Negro4", "Negro5", "Negro6", "Negro7", "Negro8"]
-        let arregloMoradoSeleccionado : [String] =  ["Morado0", "Morado1", "Morado2",  "Morado3", "Morado4", "Amarillo5", "Morado6", "Morado7", "Morado8"]
-        let arregloAmarrilloSeleccionado : [String] = ["Amarillo0", "Amarillo1", "Amarillo2",  "Amarillo3", "Amarillo4", "Amarillo5", "Amarillo6", "Amarillo7", "Amarillo8"]
-        let arregloNaranjaSeleccionado : [String] =  ["Naranja_00000", "Naranja_00001", "Naranja_00002",  "Naranja_00003", "Naranja_00004", "Naranja_00005", "Naranja_00006", "Naranja_00007", "Naranja_00008"]
+        let arregloAzulSeleccionado : [String] =  ["Azul1", "Azul2",  "Azul3", "Azul4", "Azul5", "Azul6", "Azul7", "Azul8"]
+        let arregloRojoSeleccionado : [String] = ["Rojo_00001", "Rojo_00002",  "Rojo_00003", "Rojo_00004", "Rojo_00005", "Rojo_00006", "Rojo_00007", "Rojo_00008"]
+        let arregloVerdeSeleccionado : [String] =  ["Verde1", "Verde2",  "Verde3", "Verde4", "Verde5", "Verde6", "Verde6", "Verde8",]
+        let arregloRosaSeleccionado : [String] =  ["Rosa1", "Rosa2",  "Rosa3", "Rosa4", "Rosa5", "Rosa6", "Rosa7", "Rosa8"]
+        let arregloBlancoSeleccionado : [String] = ["Blanco_00001", "Blanco_00002",  "Blanco_00003", "Blanco_00004", "Blanco_00005", "Blanco_00006", "Blanco_00007", "Blanco_00008"]
+        let arregloNegroSeleccionado : [String] =  ["Negro1", "Negro2",  "Negro3", "Negro4", "Negro5", "Negro6", "Negro7", "Negro8"]
+        let arregloMoradoSeleccionado : [String] =  ["Morado1", "Morado2",  "Morado3", "Morado4", "Amarillo5", "Morado6", "Morado7", "Morado8"]
+        let arregloAmarrilloSeleccionado : [String] = ["Amarillo1", "Amarillo2",  "Amarillo3", "Amarillo4", "Amarillo5", "Amarillo6", "Amarillo7", "Amarillo8"]
+        let arregloNaranjaSeleccionado : [String] =  ["Naranja_00001", "Naranja_00002",  "Naranja_00003", "Naranja_00004", "Naranja_00005", "Naranja_00006", "Naranja_00007", "Naranja_00008"]
         
         
         switch nombreColor {
