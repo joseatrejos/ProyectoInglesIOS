@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,73 +20,73 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="Animales" customClass="animalitosController" customModule="ProyectoIngles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoAnimales" translatesAutoresizingMaskIntoConstraints="NO" id="Wk1-Cd-Tmc" userLabel="Fondo">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y1z-Cl-Ezl" userLabel="viewInferior">
-                                <rect key="frame" x="0.0" y="368" width="414" height="368"/>
+                                <rect key="frame" x="0.0" y="448" width="414" height="448"/>
                                 <subviews>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Perro1" translatesAutoresizingMaskIntoConstraints="NO" id="7Mi-fv-Avc" userLabel="perrito">
-                                        <rect key="frame" x="7.9999999999999929" y="8" width="124.33333333333331" height="110.33333333333333"/>
+                                        <rect key="frame" x="8" y="8" width="124" height="134.5"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="3Y4-qH-JEg" appends="YES" id="aCZ-lB-ROT"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gato1" translatesAutoresizingMaskIntoConstraints="NO" id="R8b-pX-BlC" userLabel="gatito">
-                                        <rect key="frame" x="145" y="8" width="124" height="110.33333333333333"/>
+                                        <rect key="frame" x="145" y="8" width="124" height="134.5"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="bcO-NM-KvA" appends="YES" id="Znu-jq-ldw"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nutria1" translatesAutoresizingMaskIntoConstraints="NO" id="GzZ-P2-F28" userLabel="nutrita">
-                                        <rect key="frame" x="281.66666666666669" y="128.66666666666669" width="124.33333333333331" height="110.66666666666669"/>
+                                        <rect key="frame" x="282" y="157" width="124" height="134"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="IdS-Bj-gwf" appends="YES" id="mSM-1d-2Z8"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oso1" translatesAutoresizingMaskIntoConstraints="NO" id="75Q-3U-hGt" userLabel="osito">
-                                        <rect key="frame" x="7.9999999999999929" y="249.66666666666666" width="124.33333333333331" height="110.33333333333334"/>
+                                        <rect key="frame" x="8" y="305.5" width="124" height="134.5"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="pQj-vh-NW0" appends="YES" id="1A1-AF-PFr"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ardilla1" translatesAutoresizingMaskIntoConstraints="NO" id="Ud0-LR-c7Z" userLabel="ardillita">
-                                        <rect key="frame" x="145" y="249.66666666666666" width="124" height="110.33333333333334"/>
+                                        <rect key="frame" x="145" y="305.5" width="124" height="134.5"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="wqq-x2-qfB" appends="YES" id="gIw-BQ-3qK"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lobo1" translatesAutoresizingMaskIntoConstraints="NO" id="FcJ-jZ-3dg" userLabel="lobo">
-                                        <rect key="frame" x="281.66666666666669" y="249.66666666666666" width="124.33333333333331" height="110.33333333333334"/>
+                                        <rect key="frame" x="282" y="305.5" width="124" height="134.5"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="wd0-8c-JyD" appends="YES" id="vDE-eG-FeQ"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tiger1" translatesAutoresizingMaskIntoConstraints="NO" id="mSc-By-bVq" userLabel="tigrecito">
-                                        <rect key="frame" x="145" y="128.66666666666669" width="124" height="110.66666666666669"/>
+                                        <rect key="frame" x="145" y="157" width="124" height="134"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="C9T-Oa-Rvh" appends="YES" id="ChX-hT-Vhu"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mono1" translatesAutoresizingMaskIntoConstraints="NO" id="m44-Hi-IAF" userLabel="monito">
-                                        <rect key="frame" x="7.9999999999999929" y="128.66666666666669" width="124.33333333333331" height="110.66666666666669"/>
+                                        <rect key="frame" x="8" y="157" width="124" height="134"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="fLS-60-vre" appends="YES" id="wpN-2U-v4m"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zorro1" translatesAutoresizingMaskIntoConstraints="NO" id="OBH-yT-ior" userLabel="zorrito">
-                                        <rect key="frame" x="281.66666666666669" y="8" width="124.33333333333331" height="110.33333333333333"/>
+                                        <rect key="frame" x="282" y="8" width="124" height="134.5"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="Gne-dy-1FD" appends="YES" id="4r7-y8-bMz"/>
@@ -306,17 +306,17 @@
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uco-wY-y3l" userLabel="ViewSuperior">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="368"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="448"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-7X-QQq">
-                                        <rect key="frame" x="15" y="30.000000000000004" width="62" height="55.333333333333343"/>
+                                        <rect key="frame" x="8" y="33" width="62" height="54"/>
                                         <state key="normal" title="Regresar" image="Regresar"/>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Animales1" translatesAutoresizingMaskIntoConstraints="NO" id="C4J-V2-BK1">
-                                        <rect key="frame" x="62" y="90" width="290" height="257.33333333333331"/>
+                                        <rect key="frame" x="62" y="91.5" width="290" height="313.5"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZa-eY-bPb">
-                                        <rect key="frame" x="0.0" y="339.33333333333331" width="414" height="36.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="411" width="414" height="45"/>
                                         <fontDescription key="fontDescription" name="PoetsenOne-Regular" family="Poetsen One" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -324,16 +324,16 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="C4J-V2-BK1" firstAttribute="top" secondItem="dgd-7X-QQq" secondAttribute="bottom" constant="4.6699999999999999" id="18T-Xr-Qrt"/>
-                                    <constraint firstItem="dgd-7X-QQq" firstAttribute="top" secondItem="uco-wY-y3l" secondAttribute="top" constant="30" id="Ada-Mn-NUD">
+                                    <constraint firstItem="dgd-7X-QQq" firstAttribute="top" secondItem="uco-wY-y3l" secondAttribute="top" constant="33" id="Ada-Mn-NUD">
                                         <variation key="heightClass=compact-widthClass=regular" constant="15"/>
                                     </constraint>
                                     <constraint firstItem="C4J-V2-BK1" firstAttribute="centerX" secondItem="uco-wY-y3l" secondAttribute="centerX" id="ILU-GB-raj"/>
                                     <constraint firstItem="wZa-eY-bPb" firstAttribute="leading" secondItem="uco-wY-y3l" secondAttribute="leading" id="KVU-pR-gXu"/>
-                                    <constraint firstItem="dgd-7X-QQq" firstAttribute="leading" secondItem="uco-wY-y3l" secondAttribute="leading" constant="15" id="PQY-ss-bls"/>
+                                    <constraint firstItem="dgd-7X-QQq" firstAttribute="leading" secondItem="uco-wY-y3l" secondAttribute="leading" constant="8" id="PQY-ss-bls"/>
                                     <constraint firstItem="C4J-V2-BK1" firstAttribute="width" secondItem="uco-wY-y3l" secondAttribute="width" multiplier="0.7" id="VjP-ah-hcP"/>
                                     <constraint firstItem="wZa-eY-bPb" firstAttribute="width" secondItem="uco-wY-y3l" secondAttribute="width" id="bc7-2w-nwN"/>
                                     <constraint firstItem="wZa-eY-bPb" firstAttribute="height" secondItem="uco-wY-y3l" secondAttribute="height" multiplier="0.1" id="joo-me-ChZ"/>
-                                    <constraint firstItem="dgd-7X-QQq" firstAttribute="height" secondItem="uco-wY-y3l" secondAttribute="height" multiplier="0.15" id="k2h-2d-kPf"/>
+                                    <constraint firstItem="dgd-7X-QQq" firstAttribute="height" secondItem="uco-wY-y3l" secondAttribute="height" multiplier="0.12" id="k2h-2d-kPf"/>
                                     <constraint firstItem="C4J-V2-BK1" firstAttribute="height" secondItem="uco-wY-y3l" secondAttribute="height" multiplier="0.7" id="oLb-Gf-YvB"/>
                                     <constraint firstAttribute="trailing" secondItem="wZa-eY-bPb" secondAttribute="trailing" id="qMt-ZY-hdz"/>
                                     <constraint firstItem="dgd-7X-QQq" firstAttribute="width" secondItem="uco-wY-y3l" secondAttribute="width" multiplier="0.15" id="qzw-Jj-atz"/>
@@ -497,7 +497,7 @@
             <objects>
                 <viewController id="Wlu-Cu-RhI" userLabel="Instrumentos" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UkK-fm-yrR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YEe-wq-pTR">
@@ -566,7 +566,7 @@
             <objects>
                 <viewController id="Wi6-3y-V2K" userLabel="Frutas" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pjX-Ez-WeN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PG8-So-Ztn">
@@ -635,7 +635,7 @@
             <objects>
                 <viewController id="sOA-L2-hK2" userLabel="Transportes" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9CY-aQ-Pur">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kmy-7L-x1z">
@@ -704,7 +704,7 @@
             <objects>
                 <viewController id="tt2-5s-uA9" userLabel="Colores" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EZr-RL-5Ll">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Igk-En-tOg">
@@ -773,7 +773,7 @@
             <objects>
                 <viewController id="0VE-wg-zdL" userLabel="Menu" customClass="ViewController" customModule="ProyectoIngles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BVG-Ri-zqm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SfT-Ep-Ang">
@@ -811,17 +811,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Animales1" width="1111.3333740234375" height="1111.3333740234375"/>
-        <image name="Ardilla1" width="1111.3333740234375" height="1111.3333740234375"/>
-        <image name="FondoAnimales" width="1725" height="3733.333251953125"/>
-        <image name="Gato1" width="266.66665649414062" height="266.66665649414062"/>
-        <image name="Lobo1" width="1111.3333740234375" height="1111.3333740234375"/>
-        <image name="Mono1" width="1111.3333740234375" height="1111.3333740234375"/>
-        <image name="Nutria1" width="1111.3333740234375" height="1111.3333740234375"/>
-        <image name="Oso1" width="1111.3333740234375" height="1111.3333740234375"/>
-        <image name="Perro1" width="266.66665649414062" height="266.66665649414062"/>
-        <image name="Regresar" width="344" height="300.33334350585938"/>
-        <image name="Tiger1" width="1111.3333740234375" height="1111.3333740234375"/>
-        <image name="Zorro1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Animales1" width="1112" height="1112"/>
+        <image name="Ardilla1" width="1112" height="1112"/>
+        <image name="FondoAnimales" width="1725" height="3733"/>
+        <image name="Gato1" width="267" height="267"/>
+        <image name="Lobo1" width="1112" height="1112"/>
+        <image name="Mono1" width="1112" height="1112"/>
+        <image name="Nutria1" width="1112" height="1112"/>
+        <image name="Oso1" width="1112" height="1112"/>
+        <image name="Perro1" width="267" height="267"/>
+        <image name="Regresar" width="344" height="300.5"/>
+        <image name="Tiger1" width="1112" height="1112"/>
+        <image name="Zorro1" width="1112" height="1112"/>
     </resources>
 </document>
