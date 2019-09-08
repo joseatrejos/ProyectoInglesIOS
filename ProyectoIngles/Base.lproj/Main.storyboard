@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -24,69 +24,69 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoAnimales" translatesAutoresizingMaskIntoConstraints="NO" id="Wk1-Cd-Tmc" userLabel="Fondo">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y1z-Cl-Ezl" userLabel="viewInferior">
                                 <rect key="frame" x="0.0" y="448" width="414" height="448"/>
                                 <subviews>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Perro1" translatesAutoresizingMaskIntoConstraints="NO" id="7Mi-fv-Avc" userLabel="perrito">
-                                        <rect key="frame" x="8" y="8" width="124" height="134.5"/>
+                                        <rect key="frame" x="7.9999999999999929" y="8" width="124.33333333333331" height="134.33333333333334"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="3Y4-qH-JEg" appends="YES" id="aCZ-lB-ROT"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gato1" translatesAutoresizingMaskIntoConstraints="NO" id="R8b-pX-BlC" userLabel="gatito">
-                                        <rect key="frame" x="145" y="8" width="124" height="134.5"/>
+                                        <rect key="frame" x="145" y="8" width="124" height="134.33333333333334"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="bcO-NM-KvA" appends="YES" id="Znu-jq-ldw"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nutria1" translatesAutoresizingMaskIntoConstraints="NO" id="GzZ-P2-F28" userLabel="nutrita">
-                                        <rect key="frame" x="282" y="157" width="124" height="134"/>
+                                        <rect key="frame" x="281.66666666666669" y="156.66666666666663" width="124.33333333333331" height="134.66666666666663"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="IdS-Bj-gwf" appends="YES" id="mSM-1d-2Z8"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oso1" translatesAutoresizingMaskIntoConstraints="NO" id="75Q-3U-hGt" userLabel="osito">
-                                        <rect key="frame" x="8" y="305.5" width="124" height="134.5"/>
+                                        <rect key="frame" x="7.9999999999999929" y="305.66666666666663" width="124.33333333333331" height="134.33333333333337"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="pQj-vh-NW0" appends="YES" id="1A1-AF-PFr"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ardilla1" translatesAutoresizingMaskIntoConstraints="NO" id="Ud0-LR-c7Z" userLabel="ardillita">
-                                        <rect key="frame" x="145" y="305.5" width="124" height="134.5"/>
+                                        <rect key="frame" x="145" y="305.66666666666663" width="124" height="134.33333333333337"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="wqq-x2-qfB" appends="YES" id="gIw-BQ-3qK"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lobo1" translatesAutoresizingMaskIntoConstraints="NO" id="FcJ-jZ-3dg" userLabel="lobo">
-                                        <rect key="frame" x="282" y="305.5" width="124" height="134.5"/>
+                                        <rect key="frame" x="281.66666666666669" y="305.66666666666663" width="124.33333333333331" height="134.33333333333337"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="wd0-8c-JyD" appends="YES" id="vDE-eG-FeQ"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tiger1" translatesAutoresizingMaskIntoConstraints="NO" id="mSc-By-bVq" userLabel="tigrecito">
-                                        <rect key="frame" x="145" y="157" width="124" height="134"/>
+                                        <rect key="frame" x="145" y="156.66666666666663" width="124" height="134.66666666666663"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="C9T-Oa-Rvh" appends="YES" id="ChX-hT-Vhu"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mono1" translatesAutoresizingMaskIntoConstraints="NO" id="m44-Hi-IAF" userLabel="monito">
-                                        <rect key="frame" x="8" y="157" width="124" height="134"/>
+                                        <rect key="frame" x="7.9999999999999929" y="156.66666666666663" width="124.33333333333331" height="134.66666666666663"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="fLS-60-vre" appends="YES" id="wpN-2U-v4m"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zorro1" translatesAutoresizingMaskIntoConstraints="NO" id="OBH-yT-ior" userLabel="zorrito">
-                                        <rect key="frame" x="282" y="8" width="124" height="134.5"/>
+                                        <rect key="frame" x="281.66666666666669" y="8" width="124.33333333333331" height="134.33333333333334"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="Gne-dy-1FD" appends="YES" id="4r7-y8-bMz"/>
@@ -309,14 +309,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="448"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-7X-QQq">
-                                        <rect key="frame" x="8" y="33" width="62" height="54"/>
+                                        <rect key="frame" x="8" y="33" width="62" height="53.666666666666657"/>
                                         <state key="normal" title="Regresar" image="Regresar"/>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Animales1" translatesAutoresizingMaskIntoConstraints="NO" id="C4J-V2-BK1">
-                                        <rect key="frame" x="62" y="91.5" width="290" height="313.5"/>
+                                        <rect key="frame" x="62" y="91.333333333333343" width="290" height="313.66666666666663"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZa-eY-bPb">
-                                        <rect key="frame" x="0.0" y="411" width="414" height="45"/>
+                                        <rect key="frame" x="0.0" y="411.33333333333331" width="414" height="44.666666666666686"/>
                                         <fontDescription key="fontDescription" name="PoetsenOne-Regular" family="Poetsen One" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -346,8 +346,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Y1z-Cl-Ezl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="3c0-DH-gc1"/>
-                            <constraint firstItem="Wk1-Cd-Tmc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="64Z-XK-Pom"/>
-                            <constraint firstItem="Wk1-Cd-Tmc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="BXM-su-95w"/>
+                            <constraint firstItem="Wk1-Cd-Tmc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="64Z-XK-Pom"/>
+                            <constraint firstItem="Wk1-Cd-Tmc" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="BXM-su-95w"/>
                             <constraint firstItem="uco-wY-y3l" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="M2z-bE-n3y">
                                 <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
                             </constraint>
@@ -365,7 +365,7 @@
                             <constraint firstItem="uco-wY-y3l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gZN-Op-lYL">
                                 <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
                             </constraint>
-                            <constraint firstItem="Wk1-Cd-Tmc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iiU-eX-OoY"/>
+                            <constraint firstItem="Wk1-Cd-Tmc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="iiU-eX-OoY"/>
                             <constraint firstItem="uco-wY-y3l" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="k9I-AG-tZI"/>
                             <constraint firstItem="Y1z-Cl-Ezl" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="lf8-nm-sM8"/>
                             <constraint firstItem="uco-wY-y3l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q17-MH-Jz6"/>
@@ -811,17 +811,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Animales1" width="1112" height="1112"/>
-        <image name="Ardilla1" width="1112" height="1112"/>
-        <image name="FondoAnimales" width="1725" height="3733"/>
-        <image name="Gato1" width="267" height="267"/>
-        <image name="Lobo1" width="1112" height="1112"/>
-        <image name="Mono1" width="1112" height="1112"/>
-        <image name="Nutria1" width="1112" height="1112"/>
-        <image name="Oso1" width="1112" height="1112"/>
-        <image name="Perro1" width="267" height="267"/>
-        <image name="Regresar" width="344" height="300.5"/>
-        <image name="Tiger1" width="1112" height="1112"/>
-        <image name="Zorro1" width="1112" height="1112"/>
+        <image name="Animales1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Ardilla1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="FondoAnimales" width="1725" height="3733.333251953125"/>
+        <image name="Gato1" width="266.66665649414062" height="266.66665649414062"/>
+        <image name="Lobo1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Mono1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Nutria1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Oso1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Perro1" width="266.66665649414062" height="266.66665649414062"/>
+        <image name="Regresar" width="344" height="300.33334350585938"/>
+        <image name="Tiger1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Zorro1" width="1111.3333740234375" height="1111.3333740234375"/>
     </resources>
 </document>
