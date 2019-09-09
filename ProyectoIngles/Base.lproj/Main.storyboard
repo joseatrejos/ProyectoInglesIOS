@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tt2-5s-uA9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -20,75 +20,73 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="Animales" customClass="animalitosController" customModule="ProyectoIngles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoAnimales" translatesAutoresizingMaskIntoConstraints="NO" id="Wk1-Cd-Tmc" userLabel="Fondo">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y1z-Cl-Ezl" userLabel="viewInferior">
-                                <rect key="frame" x="0.0" y="448" width="414" height="448"/>
+                                <rect key="frame" x="0.0" y="406" width="375" height="406"/>
                                 <subviews>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Perro1" translatesAutoresizingMaskIntoConstraints="NO" id="7Mi-fv-Avc" userLabel="perrito">
-                                        <rect key="frame" x="7.9999999999999929" y="8" width="124.33333333333331" height="134.33333333333334"/>
+                                        <rect key="frame" x="8.0000000000000071" y="8.0000000000000071" width="112.66666666666669" height="121.66666666666669"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="3Y4-qH-JEg" appends="YES" id="aCZ-lB-ROT"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gato1" translatesAutoresizingMaskIntoConstraints="NO" id="R8b-pX-BlC" userLabel="gatito">
-                                        <rect key="frame" x="145" y="8" width="124" height="134.33333333333334"/>
+                                        <rect key="frame" x="131.33333333333334" y="8.0000000000000071" width="112.33333333333334" height="121.66666666666669"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="bcO-NM-KvA" appends="YES" id="Znu-jq-ldw"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nutria1" translatesAutoresizingMaskIntoConstraints="NO" id="GzZ-P2-F28" userLabel="nutrita">
-                                        <rect key="frame" x="281.66666666666669" y="156.66666666666663" width="124.33333333333331" height="134.66666666666663"/>
+                                        <rect key="frame" x="254.66666666666666" y="142" width="112.33333333333334" height="122"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="IdS-Bj-gwf" appends="YES" id="mSM-1d-2Z8"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oso1" translatesAutoresizingMaskIntoConstraints="NO" id="75Q-3U-hGt" userLabel="osito">
-                                        <rect key="frame" x="7.9999999999999929" y="305.66666666666663" width="124.33333333333331" height="134.33333333333337"/>
+                                        <rect key="frame" x="8.0000000000000071" y="276.33333333333337" width="112.66666666666669" height="121.66666666666669"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="pQj-vh-NW0" appends="YES" id="1A1-AF-PFr"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ardilla1" translatesAutoresizingMaskIntoConstraints="NO" id="Ud0-LR-c7Z" userLabel="ardillita">
-                                        <rect key="frame" x="145" y="305.66666666666663" width="124" height="134.33333333333337"/>
+                                        <rect key="frame" x="131.33333333333334" y="276.33333333333337" width="112.33333333333334" height="121.66666666666669"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="wqq-x2-qfB" appends="YES" id="gIw-BQ-3qK"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lobo1" translatesAutoresizingMaskIntoConstraints="NO" id="FcJ-jZ-3dg" userLabel="lobo">
-                                        <rect key="frame" x="281.66666666666669" y="305.66666666666663" width="124.33333333333331" height="134.33333333333337"/>
+                                        <rect key="frame" x="254.66666666666666" y="276.33333333333337" width="112.33333333333334" height="121.66666666666669"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="wd0-8c-JyD" appends="YES" id="vDE-eG-FeQ"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tiger1" translatesAutoresizingMaskIntoConstraints="NO" id="mSc-By-bVq" userLabel="tigrecito">
-                                        <rect key="frame" x="145" y="156.66666666666663" width="124" height="134.66666666666663"/>
+                                        <rect key="frame" x="131.33333333333334" y="142" width="112.33333333333334" height="122"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="C9T-Oa-Rvh" appends="YES" id="ChX-hT-Vhu"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mono1" translatesAutoresizingMaskIntoConstraints="NO" id="m44-Hi-IAF" userLabel="monito">
-                                        <rect key="frame" x="7.9999999999999929" y="156.66666666666663" width="124.33333333333331" height="134.66666666666663"/>
+                                        <rect key="frame" x="8.0000000000000071" y="142" width="112.66666666666669" height="122"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="fLS-60-vre" appends="YES" id="wpN-2U-v4m"/>
                                         </connections>
                                     </imageView>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zorro1" translatesAutoresizingMaskIntoConstraints="NO" id="OBH-yT-ior" userLabel="zorrito">
-                                        <rect key="frame" x="281.66666666666669" y="8" width="124.33333333333331" height="134.33333333333334"/>
+                                        <rect key="frame" x="254.66666666666666" y="8.0000000000000071" width="112.33333333333334" height="121.66666666666669"/>
                                         <gestureRecognizers/>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="Gne-dy-1FD" appends="YES" id="4r7-y8-bMz"/>
@@ -206,12 +204,12 @@
                                     <mask key="constraints">
                                         <exclude reference="28Q-9l-8GB"/>
                                         <exclude reference="G6T-VC-qIE"/>
-                                        <exclude reference="AB6-CD-hyd"/>
-                                        <exclude reference="Z2Z-QA-HQF"/>
-                                        <exclude reference="x1v-aW-S9a"/>
                                         <exclude reference="9h8-B8-hIy"/>
                                         <exclude reference="VxE-vP-muq"/>
                                         <exclude reference="xbU-qy-t3l"/>
+                                        <exclude reference="AB6-CD-hyd"/>
+                                        <exclude reference="Z2Z-QA-HQF"/>
+                                        <exclude reference="x1v-aW-S9a"/>
                                         <exclude reference="ECc-5A-xXB"/>
                                         <exclude reference="SOf-Gx-8yZ"/>
                                         <exclude reference="TDG-Ur-4Ua"/>
@@ -223,16 +221,16 @@
                                         <exclude reference="Faf-Gu-PzT"/>
                                         <exclude reference="Qd4-az-io8"/>
                                         <exclude reference="V3T-eL-Ser"/>
+                                        <exclude reference="C8N-XP-49l"/>
+                                        <exclude reference="G20-HH-8qM"/>
+                                        <exclude reference="PJ9-Rc-W02"/>
+                                        <exclude reference="iTV-kf-j7w"/>
                                         <exclude reference="ARg-hv-d2L"/>
                                         <exclude reference="VAm-nJ-xbY"/>
                                         <exclude reference="Zoh-KF-Ib0"/>
                                         <exclude reference="bQw-Zi-4iL"/>
                                         <exclude reference="ezv-3o-EKH"/>
                                         <exclude reference="fkP-sY-2DI"/>
-                                        <exclude reference="C8N-XP-49l"/>
-                                        <exclude reference="G20-HH-8qM"/>
-                                        <exclude reference="PJ9-Rc-W02"/>
-                                        <exclude reference="iTV-kf-j7w"/>
                                         <exclude reference="avZ-q8-bcq"/>
                                         <exclude reference="fiB-s8-RFW"/>
                                         <exclude reference="tlP-CN-EEw"/>
@@ -244,52 +242,52 @@
                                         <include reference="G6T-VC-qIE"/>
                                         <exclude reference="PMw-ua-Gn0"/>
                                         <exclude reference="sEa-i6-fgb"/>
-                                        <include reference="AB6-CD-hyd"/>
-                                        <exclude reference="jr8-Hs-qJK"/>
                                         <exclude reference="kjQ-0U-q7Y"/>
                                         <include reference="xbU-qy-t3l"/>
+                                        <include reference="AB6-CD-hyd"/>
+                                        <exclude reference="jr8-Hs-qJK"/>
                                         <exclude reference="e79-CO-TXa"/>
                                         <exclude reference="n9O-ca-nQh"/>
                                         <include reference="o9c-cz-aqF"/>
                                         <include reference="yy6-GK-his"/>
                                         <include reference="Faf-Gu-PzT"/>
+                                        <include reference="iTV-kf-j7w"/>
+                                        <exclude reference="nT5-m4-WiF"/>
                                         <include reference="VAm-nJ-xbY"/>
                                         <exclude reference="d7X-Dj-hm0"/>
                                         <include reference="fkP-sY-2DI"/>
-                                        <include reference="iTV-kf-j7w"/>
-                                        <exclude reference="nT5-m4-WiF"/>
                                         <exclude reference="CPo-Id-r4b"/>
                                         <include reference="tlP-CN-EEw"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=regular">
                                     <mask key="constraints">
-                                        <exclude reference="jr8-Hs-qJK"/>
-                                        <include reference="x1v-aW-S9a"/>
                                         <include reference="VxE-vP-muq"/>
                                         <exclude reference="kjQ-0U-q7Y"/>
+                                        <exclude reference="jr8-Hs-qJK"/>
+                                        <include reference="x1v-aW-S9a"/>
                                         <include reference="bak-RP-1j2"/>
                                         <include reference="cpY-Jz-9sn"/>
                                         <exclude reference="e79-CO-TXa"/>
                                         <exclude reference="n9O-ca-nQh"/>
                                         <include reference="Qd4-az-io8"/>
-                                        <include reference="Zoh-KF-Ib0"/>
-                                        <exclude reference="d7X-Dj-hm0"/>
-                                        <include reference="ezv-3o-EKH"/>
                                         <include reference="C8N-XP-49l"/>
                                         <include reference="PJ9-Rc-W02"/>
                                         <exclude reference="ZI7-Kp-vWY"/>
                                         <exclude reference="nT5-m4-WiF"/>
+                                        <include reference="Zoh-KF-Ib0"/>
+                                        <exclude reference="d7X-Dj-hm0"/>
+                                        <include reference="ezv-3o-EKH"/>
                                         <exclude reference="CPo-Id-r4b"/>
                                         <include reference="fiB-s8-RFW"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="Z2Z-QA-HQF"/>
-                                        <exclude reference="jr8-Hs-qJK"/>
                                         <include reference="9h8-B8-hIy"/>
                                         <exclude reference="kjQ-0U-q7Y"/>
+                                        <include reference="Z2Z-QA-HQF"/>
+                                        <exclude reference="jr8-Hs-qJK"/>
                                         <include reference="ECc-5A-xXB"/>
                                         <exclude reference="SOf-Gx-8yZ"/>
                                         <include reference="TDG-Ur-4Ua"/>
@@ -297,28 +295,31 @@
                                         <exclude reference="e79-CO-TXa"/>
                                         <exclude reference="n9O-ca-nQh"/>
                                         <include reference="V3T-eL-Ser"/>
+                                        <include reference="G20-HH-8qM"/>
+                                        <exclude reference="nT5-m4-WiF"/>
                                         <include reference="ARg-hv-d2L"/>
                                         <include reference="bQw-Zi-4iL"/>
                                         <exclude reference="d7X-Dj-hm0"/>
-                                        <include reference="G20-HH-8qM"/>
-                                        <exclude reference="nT5-m4-WiF"/>
                                         <exclude reference="CPo-Id-r4b"/>
                                         <include reference="avZ-q8-bcq"/>
                                     </mask>
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uco-wY-y3l" userLabel="ViewSuperior">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="448"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-7X-QQq">
-                                        <rect key="frame" x="8" y="33" width="62" height="53.666666666666657"/>
+                                        <rect key="frame" x="8.0000000000000036" y="33" width="56.333333333333343" height="48.666666666666657"/>
                                         <state key="normal" title="Regresar" image="Regresar"/>
+                                        <connections>
+                                            <segue destination="0VE-wg-zdL" kind="show" id="C9K-Lg-dVZ"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Animales1" translatesAutoresizingMaskIntoConstraints="NO" id="C4J-V2-BK1">
-                                        <rect key="frame" x="62" y="91.333333333333343" width="290" height="313.66666666666663"/>
+                                        <rect key="frame" x="56.333333333333343" y="86.333333333333343" width="262.33333333333326" height="284.33333333333326"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZa-eY-bPb">
-                                        <rect key="frame" x="0.0" y="411.33333333333331" width="414" height="44.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="373.33333333333331" width="375" height="40.666666666666686"/>
                                         <fontDescription key="fontDescription" name="PoetsenOne-Regular" family="Poetsen One" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -499,8 +500,7 @@
             <objects>
                 <viewController id="Wlu-Cu-RhI" userLabel="Instrumentos" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UkK-fm-yrR">
-
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YEe-wq-pTR">
@@ -569,9 +569,7 @@
             <objects>
                 <viewController id="Wi6-3y-V2K" userLabel="Frutas" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pjX-Ez-WeN">
-
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PG8-So-Ztn">
@@ -640,9 +638,7 @@
             <objects>
                 <viewController id="sOA-L2-hK2" userLabel="Transportes" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9CY-aQ-Pur">
-
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kmy-7L-x1z">
@@ -711,9 +707,7 @@
             <objects>
                 <viewController id="tt2-5s-uA9" userLabel="Colores" customClass="ViewControllerColorcitos" customModule="ProyectoIngles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EZr-RL-5Ll">
-
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FondoColores" translatesAutoresizingMaskIntoConstraints="NO" id="SNM-an-vAq">
@@ -1280,9 +1274,7 @@
             <objects>
                 <viewController id="0VE-wg-zdL" userLabel="Menu" customClass="ViewController" customModule="ProyectoIngles" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BVG-Ri-zqm">
-
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FondoMenu" translatesAutoresizingMaskIntoConstraints="NO" id="2fc-fU-nfd">
@@ -1667,28 +1659,30 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Amarillo01" width="1920" height="1080"/>
         <image name="Animales1" width="1111.3333740234375" height="1111.3333740234375"/>
         <image name="Ardilla1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Azul01" width="1920" height="1080"/>
+        <image name="Blanco01" width="1920" height="1080"/>
         <image name="FondoAnimales" width="1725" height="3733.333251953125"/>
+        <image name="FondoColores" width="1150" height="2487.666748046875"/>
+        <image name="FondoMenu" width="131.33332824707031" height="284"/>
         <image name="Gato1" width="266.66665649414062" height="266.66665649414062"/>
         <image name="Lobo1" width="1111.3333740234375" height="1111.3333740234375"/>
         <image name="Mono1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Morado01" width="1920" height="1080"/>
+        <image name="Naranja01" width="1920" height="1080"/>
+        <image name="Negro01" width="1920" height="1080"/>
         <image name="Nutria1" width="1111.3333740234375" height="1111.3333740234375"/>
         <image name="Oso1" width="1111.3333740234375" height="1111.3333740234375"/>
         <image name="Perro1" width="266.66665649414062" height="266.66665649414062"/>
         <image name="Regresar" width="344" height="300.33334350585938"/>
-        <image name="Tiger1" width="1111.3333740234375" height="1111.3333740234375"/>
-        <image name="Zorro1" width="1111.3333740234375" height="1111.3333740234375"/>
-        <image name="Amarillo01" width="1920" height="1080"/>
-        <image name="Azul01" width="1920" height="1080"/>
-        <image name="Blanco01" width="1920" height="1080"/>
-        <image name="FondoColores" width="1150" height="2487.666748046875"/>
-        <image name="FondoMenu" width="131.33332824707031" height="284"/>
-        <image name="Morado01" width="1920" height="1080"/>
-        <image name="Naranja01" width="1920" height="1080"/>
-        <image name="Negro01" width="1920" height="1080"/>
-        <image name="Regresar" width="344" height="300.33334350585938"/>
         <image name="Rojo01" width="1920" height="1080"/>
         <image name="Rosa01" width="1920" height="1080"/>
+        <image name="Tiger1" width="1111.3333740234375" height="1111.3333740234375"/>
+        <image name="Zorro1" width="1111.3333740234375" height="1111.3333740234375"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="C9K-Lg-dVZ"/>
+    </inferredMetricsTieBreakers>
 </document>
