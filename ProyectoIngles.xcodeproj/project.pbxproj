@@ -49,6 +49,7 @@
 		459EB23D23264CD700D65270 /* motorcycle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 459EB23423264CD500D65270 /* motorcycle.mp3 */; };
 		459EB23E23264CD700D65270 /* sailboat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 459EB23523264CD700D65270 /* sailboat.mp3 */; };
 		459EB24023267B8600D65270 /* Sand_Castle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 459EB23F23267B8600D65270 /* Sand_Castle.mp3 */; };
+		459EB24223267C3500D65270 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EB24123267C3500D65270 /* MusicPlayer.swift */; };
 		45E1311C23262456006DB9F4 /* cherry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311223262453006DB9F4 /* cherry.mp3 */; };
 		45E1311D23262456006DB9F4 /* banana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311323262453006DB9F4 /* banana.mp3 */; };
 		45E1311E23262456006DB9F4 /* pear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311423262456006DB9F4 /* pear.mp3 */; };
@@ -137,6 +138,7 @@
 		459EB23423264CD500D65270 /* motorcycle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = motorcycle.mp3; sourceTree = "<group>"; };
 		459EB23523264CD700D65270 /* sailboat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sailboat.mp3; sourceTree = "<group>"; };
 		459EB23F23267B8600D65270 /* Sand_Castle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sand_Castle.mp3; sourceTree = "<group>"; };
+		459EB24123267C3500D65270 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		45E1311223262453006DB9F4 /* cherry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cherry.mp3; sourceTree = "<group>"; };
 		45E1311323262453006DB9F4 /* banana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = banana.mp3; sourceTree = "<group>"; };
 		45E1311423262456006DB9F4 /* pear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pear.mp3; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 				45E1312623262AC3006DB9F4 /* FrutasController.swift */,
 				459EB21723263BC600D65270 /* InstrumentosController.swift */,
 				459EB21923263D7100D65270 /* TransportesController.swift */,
+				459EB24123267C3500D65270 /* MusicPlayer.swift */,
 			);
 			name = viewcontrollers;
 			sourceTree = "<group>";
@@ -509,6 +512,7 @@
 			files = (
 				459EB21A23263D7100D65270 /* TransportesController.swift in Sources */,
 				459EB21823263BC600D65270 /* InstrumentosController.swift in Sources */,
+				459EB24223267C3500D65270 /* MusicPlayer.swift in Sources */,
 				3DD5E4532324288500CA8DD6 /* ViewControlleraColorcitos.swift in Sources */,
 				3DCF5D882315C44D00B55EE8 /* ViewController.swift in Sources */,
 				45E1312723262AC3006DB9F4 /* FrutasController.swift in Sources */,

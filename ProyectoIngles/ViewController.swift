@@ -112,6 +112,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        MusicPlayer.shared.startBackgroundMusic()
+        
         var imagenesInstrumentos : [UIImage] = []
         var imagenesFrutas : [UIImage] = []
         var imagenesVehiculos: [UIImage] = []
