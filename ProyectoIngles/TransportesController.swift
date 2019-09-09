@@ -715,10 +715,6 @@ class TransportesController : UIViewController{
         imagenesSecuenciaTrailer.append(UIImage(named: "CamionM05.png")!)
         imagenesSecuenciaTrailer.append(UIImage(named: "CamionM06.png")!)
         imagenesSecuenciaTrailer.append(UIImage(named: "CamionM07.png")!)
-        imagenesSecuenciaTrailer.append(UIImage(named: "CamionM08.png")!)
-        imagenesSecuenciaTrailer.append(UIImage(named: "CamionM09.png")!)
-        imagenesSecuenciaTrailer.append(UIImage(named: "CamionM10.png")!)
-        imagenesSecuenciaTrailer.append(UIImage(named: "CamionM11.png")!)
         
         
         imgTrailer.animationImages = imagenesSecuenciaTrailer
