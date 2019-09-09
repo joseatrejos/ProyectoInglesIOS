@@ -37,6 +37,16 @@
 		41286D472324640B000B8C52 /* tiger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41286D462324640A000B8C52 /* tiger.mp3 */; };
 		41286D492324640F000B8C52 /* wolf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41286D482324640F000B8C52 /* wolf.mp3 */; };
 		41286D4B23246FA8000B8C52 /* Poetsen One - Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41286D4A23246FA8000B8C52 /* Poetsen One - Regular.ttf */; };
+		45E1311C23262456006DB9F4 /* cherry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311223262453006DB9F4 /* cherry.mp3 */; };
+		45E1311D23262456006DB9F4 /* banana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311323262453006DB9F4 /* banana.mp3 */; };
+		45E1311E23262456006DB9F4 /* pear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311423262456006DB9F4 /* pear.mp3 */; };
+		45E1311F23262456006DB9F4 /* lemon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311523262456006DB9F4 /* lemon.mp3 */; };
+		45E1312023262456006DB9F4 /* apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311623262456006DB9F4 /* apple.mp3 */; };
+		45E1312223262456006DB9F4 /* fruits.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311823262456006DB9F4 /* fruits.mp3 */; };
+		45E1312323262456006DB9F4 /* watermelon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311923262456006DB9F4 /* watermelon.mp3 */; };
+		45E1312423262456006DB9F4 /* kiwi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311A23262456006DB9F4 /* kiwi.mp3 */; };
+		45E1312523262456006DB9F4 /* strawberry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 45E1311B23262456006DB9F4 /* strawberry.mp3 */; };
+		45E1312723262AC3006DB9F4 /* FrutasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E1312623262AC3006DB9F4 /* FrutasController.swift */; };
 		BE890FBA231623D4001F1748 /* animalitosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE890FB9231623D4001F1748 /* animalitosController.swift */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +104,17 @@
 		41286D462324640A000B8C52 /* tiger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tiger.mp3; sourceTree = "<group>"; };
 		41286D482324640F000B8C52 /* wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wolf.mp3; sourceTree = "<group>"; };
 		41286D4A23246FA8000B8C52 /* Poetsen One - Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poetsen One - Regular.ttf"; sourceTree = "<group>"; };
+		45E1311223262453006DB9F4 /* cherry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cherry.mp3; sourceTree = "<group>"; };
+		45E1311323262453006DB9F4 /* banana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = banana.mp3; sourceTree = "<group>"; };
+		45E1311423262456006DB9F4 /* pear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pear.mp3; sourceTree = "<group>"; };
+		45E1311523262456006DB9F4 /* lemon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lemon.mp3; sourceTree = "<group>"; };
+		45E1311623262456006DB9F4 /* apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple.mp3; sourceTree = "<group>"; };
+		45E1311723262456006DB9F4 /* orange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = orange.mp3; path = ../../../Downloads/Frutas_Voice/orange.mp3; sourceTree = "<group>"; };
+		45E1311823262456006DB9F4 /* fruits.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fruits.mp3; sourceTree = "<group>"; };
+		45E1311923262456006DB9F4 /* watermelon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = watermelon.mp3; sourceTree = "<group>"; };
+		45E1311A23262456006DB9F4 /* kiwi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kiwi.mp3; sourceTree = "<group>"; };
+		45E1311B23262456006DB9F4 /* strawberry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = strawberry.mp3; sourceTree = "<group>"; };
+		45E1312623262AC3006DB9F4 /* FrutasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutasController.swift; sourceTree = "<group>"; };
 		BE890FB9231623D4001F1748 /* animalitosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalitosController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +198,16 @@
 		458E53802325CD580029C6E9 /* audios */ = {
 			isa = PBXGroup;
 			children = (
+				45E1311623262456006DB9F4 /* apple.mp3 */,
+				45E1311323262453006DB9F4 /* banana.mp3 */,
+				45E1311223262453006DB9F4 /* cherry.mp3 */,
+				45E1311823262456006DB9F4 /* fruits.mp3 */,
+				45E1311A23262456006DB9F4 /* kiwi.mp3 */,
+				45E1311523262456006DB9F4 /* lemon.mp3 */,
+				45E1311723262456006DB9F4 /* orange.mp3 */,
+				45E1311423262456006DB9F4 /* pear.mp3 */,
+				45E1311B23262456006DB9F4 /* strawberry.mp3 */,
+				45E1311923262456006DB9F4 /* watermelon.mp3 */,
 				41286D38232463E9000B8C52 /* bear.mp3 */,
 				41286D3A232463EE000B8C52 /* cat.mp3 */,
 				41286D3C232463F3000B8C52 /* dog.mp3 */,
@@ -225,6 +256,7 @@
 				BE890FB9231623D4001F1748 /* animalitosController.swift */,
 				3DD5E4522324288500CA8DD6 /* ViewControlleraColorcitos.swift */,
 				3DCF5D872315C44D00B55EE8 /* ViewController.swift */,
+				45E1312623262AC3006DB9F4 /* FrutasController.swift */,
 			);
 			name = viewcontrollers;
 			sourceTree = "<group>";
@@ -335,6 +367,7 @@
 			files = (
 				41286D3B232463EE000B8C52 /* cat.mp3 in Resources */,
 				41286D4523246406000B8C52 /* squirrel.mp3 in Resources */,
+				45E1312423262456006DB9F4 /* kiwi.mp3 in Resources */,
 				41286D492324640F000B8C52 /* wolf.mp3 in Resources */,
 				41286D4B23246FA8000B8C52 /* Poetsen One - Regular.ttf in Resources */,
 				41286D39232463E9000B8C52 /* bear.mp3 in Resources */,
@@ -342,24 +375,32 @@
 				41286D472324640B000B8C52 /* tiger.mp3 in Resources */,
 				41286D41232463FC000B8C52 /* monkey.mp3 in Resources */,
 				3DCF5D902315C44F00B55EE8 /* LaunchScreen.storyboard in Resources */,
+				45E1311C23262456006DB9F4 /* cherry.mp3 in Resources */,
 				41286D3D232463F3000B8C52 /* dog.mp3 in Resources */,
 				3DCF5D8D2315C44F00B55EE8 /* Assets.xcassets in Resources */,
 				41286D4323246400000B8C52 /* otter.mp3 in Resources */,
 				3CA934BB2325AB360054C8B3 /* green.mp3 in Resources */,
 				3CA934B12325AAEA0054C8B3 /* red.mp3 in Resources */,
+				45E1312223262456006DB9F4 /* fruits.mp3 in Resources */,
+				45E1312323262456006DB9F4 /* watermelon.mp3 in Resources */,
 				3CA934BD2325AB3C0054C8B3 /* colors.mp3 in Resources */,
 				3DCF5D902315C44F00B55EE8 /* LaunchScreen.storyboard in Resources */,
 				3CA934AF2325AAE20054C8B3 /* white.mp3 in Resources */,
+				45E1311D23262456006DB9F4 /* banana.mp3 in Resources */,
 				3CA934B92325AB280054C8B3 /* orange.mp3 in Resources */,
 				3CA934C32325AD600054C8B3 /* Poetsen One - Regular.ttf in Resources */,
 				3DCF5D8D2315C44F00B55EE8 /* Assets.xcassets in Resources */,
 				3CA934BF2325AB470054C8B3 /* blue.mp3 in Resources */,
+				45E1312523262456006DB9F4 /* strawberry.mp3 in Resources */,
 				3CA934B32325AAF60054C8B3 /* purple.mp3 in Resources */,
 				3CA934B72325AB200054C8B3 /* pink.mp3 in Resources */,
+				45E1312023262456006DB9F4 /* apple.mp3 in Resources */,
 				3CA934C52325AD6A0054C8B3 /* Source Serif Pro - Regular.otf in Resources */,
+				45E1311E23262456006DB9F4 /* pear.mp3 in Resources */,
 				3CA934AD2325AAD60054C8B3 /* yellow.mp3 in Resources */,
 				3DCF5D8B2315C44D00B55EE8 /* Main.storyboard in Resources */,
 				3CA934C12325AB4E0054C8B3 /* black.mp3 in Resources */,
+				45E1311F23262456006DB9F4 /* lemon.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +427,7 @@
 			files = (
 				3DD5E4532324288500CA8DD6 /* ViewControlleraColorcitos.swift in Sources */,
 				3DCF5D882315C44D00B55EE8 /* ViewController.swift in Sources */,
+				45E1312723262AC3006DB9F4 /* FrutasController.swift in Sources */,
 				3DCF5D862315C44D00B55EE8 /* AppDelegate.swift in Sources */,
 				BE890FBA231623D4001F1748 /* animalitosController.swift in Sources */,
 			);
@@ -559,7 +601,6 @@
 		3DCF5DAB2315C45000B55EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProyectoIngles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -576,7 +617,6 @@
 		3DCF5DAC2315C45000B55EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ProyectoIngles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
