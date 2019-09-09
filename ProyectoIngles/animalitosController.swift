@@ -425,10 +425,6 @@ class animalitosController: UIViewController {
         imgAnimacion.animationDuration = 2.2
         imgAnimacion.startAnimating()
        
-        
-        
-        
-        
     }
     
     
@@ -436,7 +432,6 @@ class animalitosController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
 }
 
